@@ -1,0 +1,223 @@
+28-01-2023	15:46:57-----/api/users --- POST --- Email already in use
+28-01-2023	15:55:26-----/api/users --- POST --- Error: E11000 duplicate key error collection: restapi-typescript.users index: email_1 dup key: { email: "anonystick@gmail.com" }
+28-01-2023	16:09:38-----/api/users --- POST --- Email already in use
+28-01-2023	16:09:41-----/api/users --- POST --- Email already in use
+28-01-2023	16:10:07-----/api/users --- POST --- Email already in use
+28-01-2023	16:32:34-----/api/users --- POST --- Email already in use
+28-01-2023	16:32:38-----/api/users --- POST --- Email already in use
+28-01-2023	16:49:20-----/api/users --- POST --- Email already in use
+28-01-2023	16:49:21-----/api/users --- POST --- Email already in use
+28-01-2023	16:49:24-----/api/users --- POST --- Email already in use
+28-01-2023	17:20:26-----/api/users --- POST --- Email already in use
+28-01-2023	17:20:29-----/api/users --- POST --- Email already in use
+28-01-2023	22:35:54-----/api/health-check --- GET --- Unauthorized
+28-01-2023	22:35:56-----/api/users --- POST --- Unauthorized
+28-01-2023	22:35:57-----/api/users --- POST --- Unauthorized
+28-01-2023	22:35:59-----/api/health-check --- GET --- Unauthorized
+28-01-2023	22:44:27-----/api/users/signin --- POST --- Expected double-quoted property name in JSON at position 61
+28-01-2023	22:44:41-----/api/users/signin --- POST --- Not found
+28-01-2023	22:45:08-----/api/users/signin --- POST --- Not found
+28-01-2023	22:45:36-----/api/users/signup --- POST --- Not found
+28-01-2023	22:45:39-----/api/users/signup --- POST --- Not found
+28-01-2023	22:46:35-----/api/users/signup --- POST --- Not found
+28-01-2023	22:47:21-----/api/users/signup --- POST --- "Confirm password" is required
+28-01-2023	22:47:29-----/api/users/signup --- POST --- "Confirm password" is required
+28-01-2023	22:47:32-----/api/users/signin --- POST --- Email or password is incorrect
+28-01-2023	22:47:40-----/api/users/signup --- POST --- "Confirm password" is required
+28-01-2023	22:48:27-----/api/users/signup --- POST --- Email already in use
+28-01-2023	22:48:29-----/api/users/signup --- POST --- Email already in use
+28-01-2023	22:49:23-----/api/users/signin --- POST --- Email or password is incorrect
+28-01-2023	22:50:18-----/api/users/signin --- POST --- Email or password is incorrect
+28-01-2023	22:51:16-----/api/users/signin --- POST --- Email or password is incorrect
+28-01-2023	22:51:32-----/api/users/signin --- POST --- Email or password is incorrect
+28-01-2023	22:52:01-----/api/users/signin --- POST --- Email or password is incorrect
+28-01-2023	22:54:34-----/api/users/signin --- POST --- Email or password is incorrect
+28-01-2023	22:54:35-----/api/users/signin --- POST --- Email or password is incorrect
+28-01-2023	22:54:36-----/api/users/signin --- POST --- Email or password is incorrect
+28-01-2023	22:54:53-----/api/users/signup --- POST --- Internal server error
+28-01-2023	22:59:07-----/api/users/signup --- POST --- Email already in use
+28-01-2023	22:59:07-----/api/users/signup --- POST --- Email already in use
+28-01-2023	23:34:01-----/api/users/signup --- POST --- Internal server error
+28-01-2023	23:44:46-----/api/users/signup --- POST --- Email already in use
+28-01-2023	23:48:18-----/api/users/signup --- POST --- Internal server error
+29-01-2023	00:03:36-----/api/users/signin --- POST --- Email or password is incorrect
+29-01-2023	00:04:48-----/api/users/signin --- POST --- Email or password is incorrect
+29-01-2023	00:06:53-----/api/users/signin --- POST --- Email or password is incorrect
+29-01-2023	00:08:30-----/api/users/signin --- POST --- Email or password is incorrect
+29-01-2023	00:09:42-----/api/users/signin --- POST --- Email or password is incorrect
+29-01-2023	00:12:06-----/api/users/signin --- POST --- Email or password is incorrect
+29-01-2023	01:21:47-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:21:55-----/api/users/signup --- POST --- Email already in use
+29-01-2023	01:23:37-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:37-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:40-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:41-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:41-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:44-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:44-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:45-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:46-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:46-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:47-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:47-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:48-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:49-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:50-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:51-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:52-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:53-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:23:54-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:25:18-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:25:21-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:25:23-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:26:15-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:26:15-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:26:16-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:26:16-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:26:17-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:26:17-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:28:55-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:30:47-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:31:16-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:32:26-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:32:52-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:33:00-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:33:08-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:33:08-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:33:09-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:33:10-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:33:11-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:33:11-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:33:12-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:33:13-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:33:13-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:33:14-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:33:14-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:33:56-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:37:58-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:40:24-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:40:31-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:40:31-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:40:32-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:40:33-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:40:33-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:40:34-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:40:35-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:40:35-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:40:36-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:40:36-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:40:37-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:01-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:23-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:24-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:25-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:26-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:26-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:27-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:28-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:29-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:30-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:30-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:31-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:32-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:33-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:33-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:34-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:35-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:35-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:36-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:37-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:37-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:38-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:38-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:39-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:40-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:40-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:41-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:42-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:42-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:41:43-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:42:14-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:42:15-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:43:43-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:19-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:20-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:21-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:21-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:22-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:23-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:24-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:24-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:25-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:26-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:26-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:27-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:28-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:28-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:29-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:30-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:30-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:31-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:32-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:33-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:34-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:34-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:35-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:44:35-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:45:11-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:45:41-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:48:58-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:49:28-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:49:58-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:49:58-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	01:50:02-----/api/users/profile --- GET --- Unauthorized
+29-01-2023	16:15:30-----/api/products/:id --- GET --- Not found product
+29-01-2023	16:15:41-----/api/products/create --- POST --- Bad control character in string literal in JSON at position 115
+29-01-2023	16:16:04-----/api/products/create --- POST --- Unauthorized
+29-01-2023	16:16:08-----/api/products/update --- PUT --- Expected double-quoted property name in JSON at position 21
+29-01-2023	16:16:13-----/api/products/update --- PUT --- Unauthorized
+29-01-2023	16:16:16-----/api/products/delete/:productId --- DELETE --- Unauthorized
+29-01-2023	16:29:08-----/api/products/product:::63d63a40fa4b7a4baeafcae6 --- GET --- Not found product
+29-01-2023	16:30:44-----/api/products/:productId --- PUT --- "title" is required
+29-01-2023	16:31:20-----/api/products/:productId --- PUT --- Internal server error
+29-01-2023	16:31:38-----/api/products/:productId --- PUT --- Unauthorized
+29-01-2023	16:31:41-----/api/products/:productId --- PUT --- Unauthorized
+29-01-2023	16:31:42-----/api/products/:productId --- PUT --- Unauthorized
+29-01-2023	16:31:43-----/api/products/:productId --- PUT --- Unauthorized
+29-01-2023	16:31:43-----/api/products/:productId --- PUT --- Unauthorized
+29-01-2023	16:31:44-----/api/products/:productId --- PUT --- Unauthorized
+29-01-2023	16:36:42-----/api/products/:productId --- PUT --- Unauthorized
+29-01-2023	16:36:48-----/api/products/:productId --- PUT --- Unauthorized
+29-01-2023	16:36:49-----/api/products/:productId --- PUT --- Unauthorized
+29-01-2023	16:37:40-----/api/products/:productId --- PUT --- Internal server error
+29-01-2023	16:38:13-----/api/products/63d63a40fa4b7a4baeafcae6 --- PUT --- Internal server error
+29-01-2023	16:40:17-----/api/products/63d63a40fa4b7a4baeafcae6 --- PUT --- Internal server error
+29-01-2023	16:43:53-----/api/products/63d63a40fa4b7a4baeafcae6 --- DELETE --- Unauthorized
+29-01-2023	16:46:38-----/api/products --- POST --- Unauthorized
+29-01-2023	16:47:02-----/api/products --- POST --- Unauthorized
+29-01-2023	16:51:43-----/api/products/63d63a40fa4b7a4baeafcae6 --- PUT --- Internal server error
+29-01-2023	16:52:00-----/api/products --- POST --- Unauthorized
+29-01-2023	17:05:16-----/api/products/63d6446095d7c852b8be9d46 --- GET --- Not found product
+29-01-2023	17:05:17-----/api/products/63d6446095d7c852b8be9d46 --- GET --- Not found product
+29-01-2023	17:05:17-----/api/products/63d6446095d7c852b8be9d46 --- GET --- Not found product
+29-01-2023	17:05:17-----/api/products/63d6446095d7c852b8be9d46 --- GET --- Not found product
+29-01-2023	17:09:54-----/api/products --- POST --- "description" is not allowed to be empty
+29-01-2023	17:11:59-----/api/products/63d6460a95d7c852b8be9d58 --- DELETE --- Unauthorized
+29-01-2023	17:39:57-----/api/users/reissue-token --- POST --- "refreshToken" is not allowed to be empty
+29-01-2023	17:40:02-----/api/users/reissue-token --- POST --- Internal server error
+29-01-2023	17:53:14-----/api/users/reissue-token --- POST --- Internal server error
+29-01-2023	17:53:15-----/api/users/reissue-token --- POST --- Internal server error
+29-01-2023	17:53:46-----/api/users/reissue-token --- POST --- Invalid token
+29-01-2023	17:54:03-----/api/users/reissue-token --- POST --- Invalid token
+29-01-2023	17:54:04-----/api/users/reissue-token --- POST --- Invalid token
+29-01-2023	17:54:19-----/api/users/reissue-token --- POST --- Invalid token
+29-01-2023	17:55:59-----/api/users/reissue-token --- POST --- Invalid token
+29-01-2023	17:56:14-----/api/users/reissue-token --- POST --- Invalid token
+29-01-2023	17:56:16-----/api/users/reissue-token --- POST --- Invalid token
+29-01-2023	17:56:17-----/api/users/reissue-token --- POST --- Invalid token
+29-01-2023	17:56:17-----/api/users/reissue-token --- POST --- Invalid token
+29-01-2023	17:56:17-----/api/users/reissue-token --- POST --- Invalid token
+29-01-2023	17:56:18-----/api/users/reissue-token --- POST --- Invalid token
+29-01-2023	17:58:11-----/api/users/reissue-token --- POST --- Invalid token
+29-01-2023	17:59:05-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Internal server error
+29-01-2023	17:59:15-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Internal server error
