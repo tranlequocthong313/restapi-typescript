@@ -21,7 +21,7 @@ class UserController {
             const tokens = await this.getTokens({ _id: user._id });
             await redis.set(user._id.toString(), tokens.refreshToken, 'EX', config.JWT.REFRESH_EXPIRES_IN);
 
-            return new HttpResponse(res, {
+            return HttpResponse(res, {
                 code: 201,
                 message: 'Signed up successfully',
                 data: this.getCleanedUserWithTokens(user, tokens)
@@ -43,7 +43,7 @@ class UserController {
             const tokens = await this.getTokens({ _id: user._id });
             await redis.set(user._id.toString(), tokens.refreshToken, 'EX', config.JWT.REFRESH_EXPIRES_IN);
 
-            return new HttpResponse(res, {
+            return HttpResponse(res, {
                 code: 200,
                 message: 'Signed in successfully',
                 data: this.getCleanedUserWithTokens(user, tokens)
@@ -60,7 +60,7 @@ class UserController {
             const tokens = await this.getTokens({ _id: payload._id });
 
             await redis.set(payload._id.toString(), tokens.refreshToken, 'EX', config.JWT.REFRESH_EXPIRES_IN);
-            return new HttpResponse(res, { code: 201, message: 'Refreshed token successfully', data: tokens });
+            return HttpResponse(res, { code: 201, message: 'Refreshed token successfully', data: tokens });
         } catch (error: any) {
             logger.error(error);
             next(new HttpError(401, error.message));

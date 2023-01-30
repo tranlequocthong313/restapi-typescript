@@ -20,7 +20,7 @@ const responseErrors = (err: HttpError, req: Request, res: Response, next: NextF
 
     const code = err.statusCode || 500;
     const message = err.message || 'Internal server error';
-    return new HttpResponse(res, { code, message });
+    return HttpResponse(res, { code, message });
 };
 
 export { notFound, responseErrors, HttpError };

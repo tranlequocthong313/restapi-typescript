@@ -14,7 +14,7 @@ class ProductController {
         try {
             const product = await this.productService.create({ ...req.body, userId: res.locals.payload._id });
             await this.cacheProduct(product);
-            return new HttpResponse(res, { code: 201, message: 'Created successfully', data: product });
+            return HttpResponse(res, { code: 201, message: 'Created successfully', data: product });
         } catch (error) {
             logger.error(error);
             next(new HttpError());
@@ -30,7 +30,7 @@ class ProductController {
             if (!updatedProduct) return next(new HttpError());
 
             await this.cacheProduct(updatedProduct);
-            return new HttpResponse(res, { code: 200, message: 'Updated successfully', data: updatedProduct });
+            return HttpResponse(res, { code: 200, message: 'Updated successfully', data: updatedProduct });
         } catch (error) {
             logger.error(error);
             next(new HttpError());
@@ -42,13 +42,13 @@ class ProductController {
             const { productId } = req.params;
             const cachedProduct = await redis.get(`product:::${productId}`);
             if (cachedProduct)
-                return new HttpResponse(res, { code: 200, message: 'Success', data: JSON.parse(cachedProduct) });
+                return HttpResponse(res, { code: 200, message: 'Success', data: JSON.parse(cachedProduct) });
 
             const product = await this.productService.findOne({ _id: productId });
             if (!product) return next(new HttpError(404, 'Not found product'));
 
             await this.cacheProduct(product);
-            return new HttpResponse(res, { code: 200, message: 'Success', data: product });
+            return HttpResponse(res, { code: 200, message: 'Success', data: product });
         } catch (error) {
             logger.error(error);
             next(new HttpError());
@@ -64,7 +64,7 @@ class ProductController {
             if (!deletedProduct) return next(new HttpError());
 
             await redis.del(`product:::${productId}`);
-            return new HttpResponse(res, { code: 200, message: 'Deleted successfully' });
+            return HttpResponse(res, { code: 200, message: 'Deleted successfully' });
         } catch (error) {
             logger.error(error);
             next(new HttpError());
