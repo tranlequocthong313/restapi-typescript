@@ -54,6 +54,18 @@ class UserController {
         }
     }
 
+    async logout(req: Request, res: Response, next: NextFunction) {
+        try {
+            const payload = await jwt.verifyRefreshToken(req.body.refreshToken, config.JWT.REFRESH_TOKEN_SECRET);
+
+            await redis.del(payload._id.toString());
+            return HttpResponse(res, { code: 200, message: 'Logout successfully' });
+        } catch (error: any) {
+            logger.error(error);
+            next(new HttpError(401, error.message));
+        }
+    }
+
     async reIssueToken(req: Request, res: Response, next: NextFunction) {
         try {
             const payload = await jwt.verifyRefreshToken(req.body.refreshToken, config.JWT.REFRESH_TOKEN_SECRET);

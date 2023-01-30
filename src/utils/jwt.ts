@@ -1,4 +1,3 @@
-import config from '../../config';
 import jwt, { JwtPayload, SignOptions } from 'jsonwebtoken';
 import logger from './logger';
 import { redis } from '../databases';

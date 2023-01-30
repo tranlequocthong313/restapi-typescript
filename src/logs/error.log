@@ -221,3 +221,5 @@
 29-01-2023	17:58:11-----/api/users/reissue-token --- POST --- Invalid token
 29-01-2023	17:59:05-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Internal server error
 29-01-2023	17:59:15-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Internal server error
+30-01-2023	14:02:58-----/api/users/logout --- DELETE --- Invalid token
+30-01-2023	14:03:29-----/api/users/logout --- DELETE --- Invalid token

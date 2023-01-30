@@ -15,8 +15,12 @@ const registerSchema = Joi.object({
         .messages({ 'any.only': '{{#label}} does not match' })
 });
 
-const reissueToken = Joi.object({
+const reissueTokenSchema = Joi.object({
     refreshToken: Joi.string().required()
 });
 
-export { reissueToken, registerSchema, loginSchema };
+const logoutSchema = Joi.object({
+    refreshToken: Joi.string().required()
+});
+
+export { reissueTokenSchema, registerSchema, loginSchema, logoutSchema };

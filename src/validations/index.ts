@@ -1,8 +1,9 @@
 import productSchema from './product.validation';
-import { reissueToken, loginSchema, registerSchema } from './user.validation';
+import { reissueTokenSchema, logoutSchema, loginSchema, registerSchema } from './user.validation';
 
 export {
-    reissueToken,
+    logoutSchema,
+    reissueTokenSchema,
     loginSchema,
     registerSchema,
     productSchema

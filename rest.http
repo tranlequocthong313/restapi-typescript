@@ -24,6 +24,14 @@ content-type: application/json
 }
 
 ###
+DELETE  {{url}}/users/logout
+content-type: application/json
+
+{
+   "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzUwNjIyMTcsImV4cCI6MTcwNjU5ODIxN30.jp8g6LCvmNcbnaF2xOszNSpGN6vT_07--EnPH2JXUsI"
+}
+
+###
 POST {{url}}/users/reissue-token
 content-type: application/json
 
