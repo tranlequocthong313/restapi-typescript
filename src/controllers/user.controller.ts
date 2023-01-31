@@ -34,10 +34,10 @@ class UserController {
     async signIn(req: Request, res: Response, next: NextFunction) {
         try {
             const user = await this.userService.findOne({ email: req.body.email });
-            if (!user) return next(new HttpError(400, 'Email or password is incorrect'));
+            if (!user) return next(new HttpError(403, 'Email or password is incorrect'));
 
             const isCorrectPassword = await user.comparePassword(req.body.password);
-            if (!isCorrectPassword) return next(new HttpError(400, 'Email or password is incorrect'));
+            if (!isCorrectPassword) return next(new HttpError(403, 'Email or password is incorrect'));
 
             const tokens = await this.getTokens({ _id: user._id });
 

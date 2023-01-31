@@ -3,7 +3,7 @@ import { IProduct, ProductModel } from '../models';
 import { ResultTypes } from 'ioredis/built/utils/RedisCommander';
 
 export interface IProductService {
-    create(product: IProduct): Promise<IProduct>;
+    create(product: OmitProduct): Promise<IProduct>;
     findOne(filter: FilterQuery<IProduct>, options?: QueryOptions): Promise<IProduct | null>;
     findOneAndUpdate(filter: FilterQuery<IProduct>, update: UpdateQuery<IProduct>, options: QueryOptions): Promise<IProduct | null>;
     findOneAndDelete(filter: FilterQuery<IProduct>): Promise<unknown>;

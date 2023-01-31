@@ -1,12 +1,15 @@
+import { DocumentDefinition } from 'mongoose';
 import { IUser, UserModel } from '../models';
 
 export interface IUserService {
-    createUser(user: IUser): Promise<IUser>;
+    createUser(user: OmitUser): Promise<IUser>;
     findOne(query: object): Promise<IUser | null>;
 }
 
+type OmitUser = DocumentDefinition<Omit<IUser, 'createdAt' | 'updatedAt' | 'comparePassword'>>;
+
 class UserService implements IUserService {
-    async createUser(user: IUser): Promise<IUser> {
+    async createUser(user: OmitUser): Promise<IUser> {
         return await new UserModel(user).save();
     }
 

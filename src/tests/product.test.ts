@@ -115,7 +115,7 @@ describe('product tests', () => {
 
         });
 
-        describe('given wrong or missing data bodies', () => {
+        describe('given invalid or missing data bodies', () => {
 
             it('should return a 422 status code', () => {
 
@@ -187,7 +187,7 @@ describe('product tests', () => {
 
         });
 
-        describe('given wrong or missing data bodies', () => {
+        describe('given invalid or missing data bodies', () => {
 
             it('should respond a 422 status code', () => {
 

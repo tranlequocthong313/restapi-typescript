@@ -22,7 +22,7 @@ export default {
         DEBUG: getEnvVariable('MONGODB_DEBUG') || true
     },
     BCRYPT: {
-        SALT: getEnvVariable('BCRYPT_SALT') || 10
+        SALT: +getEnvVariable('BCRYPT_SALT') || 10
     },
     JWT: {
         ACCESS_TOKEN_SECRET: getEnvVariable('JWT_ACCESS_TOKEN_SECRET') || 'secret',
