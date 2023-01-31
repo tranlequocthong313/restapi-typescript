@@ -82,7 +82,7 @@ class UserController {
             jwt.signToken(payload, config.JWT.REFRESH_TOKEN_SECRET, { expiresIn: config.JWT.REFRESH_EXPIRES_IN })
         ];
 
-        await redis.set(`refresh-token:::${payload._id}`, refreshToken, 'EX', config.JWT.REFRESH_EXPIRES_IN);
+        await redis.set(payload._id, refreshToken, 'EX', config.JWT.REFRESH_EXPIRES_IN);
         return { accessToken, refreshToken };
     }
 

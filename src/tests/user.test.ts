@@ -3,8 +3,7 @@ import app from '../app';
 import { SIGNIN_FAILED_CASE_BODIES, SIGNUP_FAILED_CASE_BODIES, } from './user.test.cases';
 import { MongoMemoryServer } from 'mongodb-memory-server';
 import mongoose from 'mongoose';
-import { IUser, UserModel } from '../models';
-import { IUserService, UserService } from '../services';
+import { UserModel } from '../models';
 
 const userPayload = {
     name: 'john doe',
@@ -24,8 +23,7 @@ const nonExistUserPayload = {
 };
 
 let client: SuperTest<Test>;
-let user: IUser;
-let userService: IUserService;
+let refreshToken: string;
 
 describe('user tests', () => {
 
@@ -35,8 +33,7 @@ describe('user tests', () => {
         await mongoose.connect(mongoServer.getUri());
 
         client = supertest(app);
-        userService = new UserService();
-        user = await userService.createUser(userPayload);
+        await client.post('/api/users/signup').send(userPayload);
 
     });
 
@@ -46,6 +43,13 @@ describe('user tests', () => {
         mongoose.connection.close(),
 
     ]));
+
+    beforeEach(async () => {
+
+        const { body } = await client.post('/api/users/signin').send(userAuth);
+        refreshToken = body.data.refreshToken;
+
+    });
 
     describe('POST /api/users/signin', () => {
 
@@ -84,8 +88,8 @@ describe('user tests', () => {
                 const { statusCode, body } = await client.post('/api/users/signin').send(userAuth);
 
                 expect(statusCode).toBe(200);
-                expect(body.data.email).toBe(user.email);
-                expect(body.data.name).toBe(user.name);
+                expect(body.data.email).toBe(userPayload.email);
+                expect(body.data.name).toBe(userPayload.name);
 
             });
 
@@ -161,6 +165,90 @@ describe('user tests', () => {
                 const user = await (new UserModel(userPayload)).save();
 
                 expect(user.password).not.toBe(userPayload.password);
+
+            });
+
+        });
+
+    });
+
+    describe('DELETE /api/users/logout', () => {
+
+        describe('given a missing refresh token', () => {
+
+            it('should respond a 422 status code', async () => {
+
+                const { statusCode } = await client.delete('/api/users/logout').send({ refreshToken: '' });
+
+                expect(statusCode).toBe(422);
+
+            });
+
+        });
+
+        describe('given a invalid refresh token', () => {
+
+            it('should respond a 401 status code', async () => {
+
+                const invalidRefreshToken = 'abcdef';
+
+                const { statusCode } = await client.delete('/api/users/logout').send({ refreshToken: invalidRefreshToken });
+
+                expect(statusCode).toBe(401);
+
+            });
+
+        });
+
+        describe('given a valid refresh token', () => {
+
+            it('should respond a 200 status code', async () => {
+
+                const { statusCode } = await client.delete('/api/users/logout').send({ refreshToken });
+
+                expect(statusCode).toBe(200);
+
+            });
+
+        });
+
+    });
+
+    describe('POST /api/users/reissue-token', () => {
+
+        describe('given a missing refresh token', () => {
+
+            it('should respond a 422 status code', async () => {
+
+                const { statusCode } = await client.post('/api/users/reissue-token').send({ refreshToken: '' });
+
+                expect(statusCode).toBe(422);
+
+            });
+
+        });
+
+        describe('given an invalid refresh token', () => {
+
+            it('should respond a 401 status code', async () => {
+
+                const { statusCode } = await client.post('/api/users/reissue-token').send({ refreshToken: 'abcdedf' });
+
+                expect(statusCode).toBe(401);
+
+            });
+
+        });
+
+        describe('given a correct refresh token', () => {
+
+            it('should respond a 201 status code and a new pair tokens', async () => {
+
+                const { statusCode, body } = await client.post('/api/users/reissue-token').send({ refreshToken });
+
+                expect(statusCode).toBe(201);
+                expect(body.data.accessToken).toBeDefined();
+                expect(body.data.refreshToken).toBeDefined();
 
             });
 

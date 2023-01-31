@@ -28,7 +28,7 @@ DELETE  {{url}}/users/logout
 content-type: application/json
 
 {
-   "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzUwNjIyMTcsImV4cCI6MTcwNjU5ODIxN30.jp8g6LCvmNcbnaF2xOszNSpGN6vT_07--EnPH2JXUsI"
+   "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzUxODIzODQsImV4cCI6MTY3NTI2ODc4NH0.NyzcP3hpM4Able3Fs9LnbnGt-VIVIkJ7wGvCSp1LpVE"
 }
 
 ###
@@ -36,5 +36,5 @@ POST {{url}}/users/reissue-token
 content-type: application/json
 
 {
-   "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzQ5ODk4NzksImV4cCI6MTcwNjUyNTg3OX0.DPeQZ19SYgwcOvmRHoLmAjuwt1ezcodZZS8D1CfiPPo"
+   "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzUxODIzODQsImV4cCI6MTY3NTI2ODc4NH0.NyzcP3hpM4Able3Fs9LnbnGt-VIVIkJ7wGvCSp1LpVE"
 }
