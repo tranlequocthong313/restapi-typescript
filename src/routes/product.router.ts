@@ -1,6 +1,8 @@
 import { ProductController } from '../controllers';
 import { authorize, validate } from '../middlewares';
+import { ProductModel } from '../models';
 import { ProductService } from '../services';
+import { HttpResponse } from '../utils';
 import { productSchema } from '../validations';
 import { Router } from 'express';
 

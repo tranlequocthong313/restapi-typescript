@@ -4,6 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 export interface IProduct extends Document {
     userId: IUser['_id'];
+    productId: string;
     title: string;
     description: string;
     price: number;

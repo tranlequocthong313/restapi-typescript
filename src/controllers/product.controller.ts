@@ -14,6 +14,7 @@ class ProductController {
         try {
             const product = await this.productService.create({ ...req.body, userId: res.locals.payload._id });
             await this.cacheProduct(product);
+
             return HttpResponse(res, { code: 201, message: 'Created successfully', data: product });
         } catch (error) {
             logger.error(error);
@@ -27,7 +28,7 @@ class ProductController {
             const { productId } = req.params;
 
             const updatedProduct = await this.productService.findOneAndUpdate({ _id: productId, userId }, req.body, { new: true });
-            if (!updatedProduct) return next(new HttpError());
+            if (!updatedProduct) return next(new HttpError(404, 'Not found'));
 
             await this.cacheProduct(updatedProduct);
             return HttpResponse(res, { code: 200, message: 'Updated successfully', data: updatedProduct });
@@ -42,16 +43,16 @@ class ProductController {
             const { productId } = req.params;
             const cachedProduct = await redis.get(`product:::${productId}`);
             if (cachedProduct)
-                return HttpResponse(res, { code: 200, message: 'Success', data: JSON.parse(cachedProduct) });
+                return HttpResponse(res, { code: 200, message: 'Success from cache', data: JSON.parse(cachedProduct) });
 
             const product = await this.productService.findOne({ _id: productId });
-            if (!product) return next(new HttpError(404, 'Not found product'));
+            if (!product) return next(new HttpError(404, 'Not found'));
 
             await this.cacheProduct(product);
-            return HttpResponse(res, { code: 200, message: 'Success', data: product });
+            return HttpResponse(res, { code: 200, message: 'Success from db', data: product });
         } catch (error) {
             logger.error(error);
-            next(new HttpError());
+            next(new HttpError(404, 'Not found'));
         }
     }
 
@@ -60,8 +61,8 @@ class ProductController {
             const userId = res.locals.payload._id;
             const { productId } = req.params;
 
-            const deletedProduct = await this.productService.deleteOne({ _id: productId, userId });
-            if (!deletedProduct) return next(new HttpError());
+            const deletedProduct = await this.productService.findOneAndDelete({ _id: productId, userId });
+            if (!deletedProduct) return next(new HttpError(404, 'Not found'));
 
             await redis.del(`product:::${productId}`);
             return HttpResponse(res, { code: 200, message: 'Deleted successfully' });

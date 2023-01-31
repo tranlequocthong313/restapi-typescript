@@ -3,15 +3,15 @@ import logger from './logger';
 import { redis } from '../databases';
 import { get } from 'lodash';
 
-const signToken = async (payload: object, keySecret: string, options?: SignOptions | undefined): Promise<string> => {
-    return await jwt.sign(payload, keySecret, options);
+const signToken = (payload: object, keySecret: string, options?: SignOptions | undefined): string => {
+    return jwt.sign(payload, keySecret, options);
 };
 
 const verifyToken = (token: string, keySecret: string): string | JwtPayload | null => {
     try {
         return jwt.verify(token, keySecret);
     } catch (error) {
-        logger.error(error);
+        logger.error(`JWT ERROR:::${error}`);
         return null;
     }
 };

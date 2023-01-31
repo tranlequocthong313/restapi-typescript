@@ -1,0 +1,40 @@
+@url = http://localhost:3000/api
+
+
+GET {{url}}/health-check
+
+###
+POST {{url}}/users/signup
+content-type: application/json
+
+{
+   "email": "<testuser>@gmail.com",
+   "name": "name",
+   "password": "password",
+   "passwordConfirmation": "password"
+}
+
+###
+POST {{url}}/users/signin
+content-type: application/json
+
+{
+   "email": "tranl@gmail.com",
+   "password": "123456"
+}
+
+###
+DELETE  {{url}}/users/logout
+content-type: application/json
+
+{
+   "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzUwNjIyMTcsImV4cCI6MTcwNjU5ODIxN30.jp8g6LCvmNcbnaF2xOszNSpGN6vT_07--EnPH2JXUsI"
+}
+
+###
+POST {{url}}/users/reissue-token
+content-type: application/json
+
+{
+   "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzQ5ODk4NzksImV4cCI6MTcwNjUyNTg3OX0.DPeQZ19SYgwcOvmRHoLmAjuwt1ezcodZZS8D1CfiPPo"
+}

@@ -1,10 +1,8 @@
 import { NextFunction, Request, Response } from 'express';
 import { get } from 'lodash';
 import { HttpError } from '.';
-import { jwt, logger } from '../utils';
+import { jwt } from '../utils';
 import config from '../../config';
-import { signToken, verifyRefreshToken } from '../utils/jwt';
-import { redis } from '../databases';
 
 const authorize = async (req: Request, res: Response, next: NextFunction) => {
     const accessToken = get(req.headers, 'authorization', '').replace(/^Bearer\s/, "");

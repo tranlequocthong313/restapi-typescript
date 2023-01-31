@@ -19,7 +19,6 @@ class UserController {
 
             const user = await this.userService.createUser(req.body);
             const tokens = await this.getTokens({ _id: user._id });
-            await redis.set(user._id.toString(), tokens.refreshToken, 'EX', config.JWT.REFRESH_EXPIRES_IN);
 
             return HttpResponse(res, {
                 code: 201,
@@ -41,7 +40,6 @@ class UserController {
             if (!isCorrectPassword) return next(new HttpError(400, 'Email or password is incorrect'));
 
             const tokens = await this.getTokens({ _id: user._id });
-            await redis.set(user._id.toString(), tokens.refreshToken, 'EX', config.JWT.REFRESH_EXPIRES_IN);
 
             return HttpResponse(res, {
                 code: 200,
@@ -71,7 +69,6 @@ class UserController {
             const payload = await jwt.verifyRefreshToken(req.body.refreshToken, config.JWT.REFRESH_TOKEN_SECRET);
             const tokens = await this.getTokens({ _id: payload._id });
 
-            await redis.set(payload._id.toString(), tokens.refreshToken, 'EX', config.JWT.REFRESH_EXPIRES_IN);
             return HttpResponse(res, { code: 201, message: 'Refreshed token successfully', data: tokens });
         } catch (error: any) {
             logger.error(error);
@@ -79,12 +76,13 @@ class UserController {
         }
     }
 
-    private async getTokens(payload: object): Promise<{ accessToken: string, refreshToken: string; }> {
-        const [accessToken, refreshToken] = await Promise.all([
-            await jwt.signToken(payload, config.JWT.ACCESS_TOKEN_SECRET, { expiresIn: config.JWT.ACCESS_EXPIRES_IN }),
-            await jwt.signToken(payload, config.JWT.REFRESH_TOKEN_SECRET, { expiresIn: config.JWT.REFRESH_EXPIRES_IN })
-        ]);
+    private async getTokens(payload: { _id: string; }): Promise<{ accessToken: string, refreshToken: string; }> {
+        const [accessToken, refreshToken] = [
+            jwt.signToken(payload, config.JWT.ACCESS_TOKEN_SECRET, { expiresIn: config.JWT.ACCESS_EXPIRES_IN }),
+            jwt.signToken(payload, config.JWT.REFRESH_TOKEN_SECRET, { expiresIn: config.JWT.REFRESH_EXPIRES_IN })
+        ];
 
+        await redis.set(`refresh-token:::${payload._id}`, refreshToken, 'EX', config.JWT.REFRESH_EXPIRES_IN);
         return { accessToken, refreshToken };
     }
 

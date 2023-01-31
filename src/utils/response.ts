@@ -6,8 +6,8 @@ interface IHttpResponse {
     data?: unknown;
 }
 
-const HttpResponse = (callback: Response, data: IHttpResponse) => {
-    return callback.status(data.code).json(data);
+const HttpResponse = (res: Response, data: IHttpResponse) => {
+    return res.status(data.code).json(data);
 };
 
 export default HttpResponse;

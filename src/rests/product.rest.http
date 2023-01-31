@@ -1,0 +1,36 @@
+@url = http://localhost:3000/api
+
+
+GET {{url}}/health-check
+
+###
+GET {{url}}/products/63d92777773ab15e856d79bf
+
+###
+POST {{url}}/products
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzUxNzU3ODYsImV4cCI6MTY3NTE3NjY4Nn0.8_oDr4mC4VdA8zDEI4kHR6heqQu8tV3oHSpxmfeErGQ
+
+{
+   "title": "Code dao ky su",
+   "description": "A like-new experience. Backed by a one-year satisfaction guarantee. This Renewed Premium product is shipped and sold by Amazon and has been certified by Amazon to work and look like new. With at least 90% battery life, it comes in deluxe, Amazon-branded packaging and is backed by a one-year warranty and technical support.",
+   "price": 129000,
+   "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_12.png"
+}
+
+###
+PUT {{url}}/products/63d92777773ab15e856d79bf
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzUxNzU3ODYsImV4cCI6MTY3NTE3NjY4Nn0.8_oDr4mC4VdA8zDEI4kHR6heqQu8tV3oHSpxmfeErGQ
+
+{
+   "title": "Clean code",
+   "description": "A like-new experience. Backed by a one-year satisfaction guarantee. This Renewed Premium product is shipped and sold by Amazon and has been certified by Amazon to work and look like new. With at least 90% battery life, it comes in deluxe, Amazon-branded packaging and is backed by a one-year warranty and technical support.",
+   "price": 1640000,
+   "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_12.png"
+}
+
+###
+DELETE  {{url}}/products/63d92777773ab15e856d79bf
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzUxNzU3ODYsImV4cCI6MTY3NTE3NjY4Nn0.8_oDr4mC4VdA8zDEI4kHR6heqQu8tV3oHSpxmfeErGQ

@@ -223,3 +223,2106 @@
 29-01-2023	17:59:15-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Internal server error
 30-01-2023	14:02:58-----/api/users/logout --- DELETE --- Invalid token
 30-01-2023	14:03:29-----/api/users/logout --- DELETE --- Invalid token
+30-01-2023	14:04:49-----/api/users/logout --- DELETE --- "refreshToken" is required
+30-01-2023	14:04:51-----/api/users/logout --- DELETE --- "refreshToken" is required
+30-01-2023	14:04:55-----/api/users/logout --- DELETE --- Invalid token
+30-01-2023	14:05:00-----/api/users/logout --- DELETE --- Unexpected token '}', ..."Token": 
+}" is not valid JSON
+30-01-2023	14:05:03-----/api/users/logout --- DELETE --- "refreshToken" is required
+31-01-2023	10:13:42-----/api/products/123456 --- GET --- Internal server error
+31-01-2023	10:15:01-----/api/products/123456 --- GET --- Internal server error
+31-01-2023	10:18:14-----/api/products/123456 --- GET --- Internal server error
+31-01-2023	10:30:48-----/api/products/12345 --- POST --- Unauthorized
+31-01-2023	10:31:43-----/api/products/12345 --- GET --- Internal server error
+31-01-2023	10:32:25-----/api/products/12345 --- GET --- Internal server error
+31-01-2023	10:33:06-----/api/products/abcde --- GET --- Internal server error
+31-01-2023	10:34:39-----/api/products/abcde --- GET --- Not found product
+31-01-2023	10:35:15-----/api/products/12345 --- GET --- Not found product
+31-01-2023	10:37:58-----/api/products/12345 --- GET --- Not found product
+31-01-2023	10:37:58-----/api/products/12345 --- GET --- Not found product
+31-01-2023	10:51:28-----/api/products/12345 --- GET --- Not found product
+31-01-2023	10:51:28-----/api/products/12345 --- GET --- Not found product
+31-01-2023	10:51:28-----/api/users/sigin --- POST --- Not found
+31-01-2023	10:51:28-----/api/users/sigin --- POST --- Not found
+31-01-2023	10:51:28-----/api/users/sigin --- POST --- Not found
+31-01-2023	10:51:28-----/api/users/sigin --- POST --- Not found
+31-01-2023	10:52:07-----/api/products/12345 --- GET --- Not found product
+31-01-2023	10:52:07-----/api/products/12345 --- GET --- Not found product
+31-01-2023	10:52:08-----/api/users/signin --- POST --- "password" is required
+31-01-2023	10:52:08-----/api/users/signin --- POST --- "email" is required
+31-01-2023	10:52:08-----/api/users/signin --- POST --- "password" is required
+31-01-2023	10:52:08-----/api/users/signin --- POST --- "email" is required
+31-01-2023	10:58:31-----/api/products/12345 --- GET --- Not found product
+31-01-2023	10:58:31-----/api/products/12345 --- GET --- Not found product
+31-01-2023	10:58:32-----/api/users/signin --- POST --- "password" is required
+31-01-2023	10:58:32-----/api/users/signin --- POST --- "email" is required
+31-01-2023	10:58:32-----/api/users/signin --- POST --- "email" is required
+31-01-2023	10:58:32-----/api/users/signin --- POST --- "password" is required
+31-01-2023	10:58:32-----/api/users/signup --- POST --- "name" is required
+31-01-2023	10:58:32-----/api/users/signup --- POST --- "name" is required
+31-01-2023	10:58:32-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	10:58:32-----/api/users/signup --- POST --- "email" is required
+31-01-2023	10:58:32-----/api/users/signup --- POST --- "email" is required
+31-01-2023	10:58:32-----/api/users/signup --- POST --- "email" is required
+31-01-2023	10:58:32-----/api/users/signup --- POST --- "email" is required
+31-01-2023	10:58:32-----/api/users/signup --- POST --- "email" is required
+31-01-2023	10:58:32-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:00:35-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:00:35-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:00:36-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:00:36-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:00:36-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:00:36-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:00:36-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:00:36-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:00:36-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:00:36-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:00:36-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:00:36-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:00:36-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:00:36-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:00:36-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:00:36-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:00:36-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:00:36-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:00:36-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:03:16-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:03:16-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:03:16-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:03:16-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:03:16-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:03:16-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:03:16-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	11:03:17-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:03:40-----/api/users/signup --- POST --- Email already in use
+31-01-2023	11:03:57-----/api/users/signup --- POST --- Email already in use
+31-01-2023	11:04:57-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:05:04-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:05:08-----/api/users/signup --- POST --- Email already in use
+31-01-2023	11:05:12-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:07:29-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:07:29-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:07:29-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:07:29-----/api/users/signin --- POST --- "password" is not allowed to be empty
+31-01-2023	11:07:29-----/api/users/signin --- POST --- "email" must be a valid email
+31-01-2023	11:07:29-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:07:29-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:07:29-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	11:07:29-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:09:26-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:09:26-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:09:26-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:09:26-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:09:26-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:09:26-----/api/users/signin --- POST --- "email" must be a valid email
+31-01-2023	11:09:26-----/api/users/signin --- POST --- "password" is not allowed to be empty
+31-01-2023	11:09:26-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	11:09:26-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:10:58-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:10:58-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:10:59-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:10:59-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:10:59-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:10:59-----/api/users/signin --- POST --- "email" must be a valid email
+31-01-2023	11:10:59-----/api/users/signin --- POST --- "password" is not allowed to be empty
+31-01-2023	11:10:59-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	11:10:59-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:11:39-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:12:39-----/api/users/signup --- POST --- Email already in use
+31-01-2023	11:18:09-----/api/users/signup --- POST --- "name" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:18:17-----/api/users/signup --- POST --- "name" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:18:18-----/api/users/signup --- POST --- "name" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:18:18-----/api/users/signup --- POST --- "name" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:18:29-----/api/users/signup --- POST --- "name" with value "<name>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:18:38-----/api/users/signup --- POST --- "name" with value "(name" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:19:53-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:19:53-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:19:53-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:19:53-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:19:53-----/api/users/signin --- POST --- "email" must be a valid email
+31-01-2023	11:19:53-----/api/users/signin --- POST --- "password" is not allowed to be empty
+31-01-2023	11:19:53-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:19:53-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:19:53-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:19:53-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:19:53-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:19:53-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:19:53-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:19:53-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:19:53-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:19:53-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:19:54-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:19:54-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:19:54-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:19:54-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:19:54-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:19:54-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:19:54-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:19:54-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	11:19:54-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	11:19:54-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	11:19:54-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:19:54-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:22:18-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:22:18-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:22:19-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:22:19-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:22:19-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:22:19-----/api/users/signin --- POST --- "email" must be a valid email
+31-01-2023	11:22:19-----/api/users/signin --- POST --- "password" is not allowed to be empty
+31-01-2023	11:22:19-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:22:19-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:24:30-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:24:30-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:24:30-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:24:31-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:24:31-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:24:31-----/api/users/signin --- POST --- "email" must be a valid email
+31-01-2023	11:24:31-----/api/users/signin --- POST --- "password" is not allowed to be empty
+31-01-2023	11:24:31-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:24:31-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:25:29-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:25:30-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:25:30-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:25:30-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:25:30-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:25:30-----/api/users/signin --- POST --- "email" must be a valid email
+31-01-2023	11:25:30-----/api/users/signin --- POST --- "password" is not allowed to be empty
+31-01-2023	11:25:30-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:25:30-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:25:30-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:25:30-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:25:30-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:25:30-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:25:30-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:25:30-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:25:30-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:25:30-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:25:30-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:25:30-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:25:30-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:25:30-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:25:30-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:25:30-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:25:31-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	11:25:31-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	11:25:31-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	11:25:31-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:25:31-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:25:31-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:26:20-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:26:20-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:26:21-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:26:21-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:26:21-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:26:21-----/api/users/signin --- POST --- "email" must be a valid email
+31-01-2023	11:26:21-----/api/users/signin --- POST --- "password" is not allowed to be empty
+31-01-2023	11:26:21-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:26:21-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:28:44-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:36:35-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:36:35-----/api/products/12345 --- GET --- Not found product
+31-01-2023	11:36:35-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:36:35-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:36:35-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:36:35-----/api/users/signin --- POST --- "email" must be a valid email
+31-01-2023	11:36:35-----/api/users/signin --- POST --- "password" is not allowed to be empty
+31-01-2023	11:36:35-----/api/users/signin --- POST --- "email" must be a string
+31-01-2023	11:36:35-----/api/users/signin --- POST --- "password" must be a string
+31-01-2023	11:36:35-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "name" must be a string
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:36:35-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:45:44-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:45:44-----/api/users/signin --- POST --- "email" is required
+31-01-2023	11:45:44-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:45:44-----/api/users/signin --- POST --- "email" must be a valid email
+31-01-2023	11:45:44-----/api/users/signin --- POST --- "password" is not allowed to be empty
+31-01-2023	11:45:44-----/api/users/signin --- POST --- "email" must be a string
+31-01-2023	11:45:44-----/api/users/signin --- POST --- "password" must be a string
+31-01-2023	11:45:44-----/api/users/signin --- POST --- "password" is required
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "email" is required
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "name" is required
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "name" must be a string
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	11:45:44-----/api/users/signup --- POST --- "name" is required
+31-01-2023	12:15:01-----/api/users/signin --- POST --- Email or password is incorrect
+31-01-2023	12:29:07-----/api/products/12345 --- GET --- Not found product
+31-01-2023	12:29:07-----/api/products/12345 --- GET --- Not found product
+31-01-2023	12:29:07-----/api/users/signin --- POST --- "email" is required
+31-01-2023	12:29:07-----/api/users/signin --- POST --- "email" is required
+31-01-2023	12:29:07-----/api/users/signin --- POST --- "password" is required
+31-01-2023	12:29:07-----/api/users/signin --- POST --- "password" is not allowed to be empty
+31-01-2023	12:29:07-----/api/users/signin --- POST --- "email" must be a valid email
+31-01-2023	12:29:07-----/api/users/signin --- POST --- "password" must be a string
+31-01-2023	12:29:07-----/api/users/signin --- POST --- "email" must be a string
+31-01-2023	12:29:07-----/api/users/signin --- POST --- "password" is required
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "name" is required
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "name" is required
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "name" is required
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "name" must be a string
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	12:29:07-----/api/users/signup --- POST --- "name" is required
+31-01-2023	12:30:46-----/api/products/12345 --- GET --- Not found product
+31-01-2023	12:30:46-----/api/products/12345 --- GET --- Not found product
+31-01-2023	12:30:46-----/api/users/signin --- POST --- "email" is required
+31-01-2023	12:30:46-----/api/users/signin --- POST --- "email" is required
+31-01-2023	12:30:46-----/api/users/signin --- POST --- "password" is required
+31-01-2023	12:30:46-----/api/users/signin --- POST --- "email" must be a valid email
+31-01-2023	12:30:46-----/api/users/signin --- POST --- "password" is not allowed to be empty
+31-01-2023	12:30:46-----/api/users/signin --- POST --- "email" must be a string
+31-01-2023	12:30:46-----/api/users/signin --- POST --- "password" must be a string
+31-01-2023	12:30:46-----/api/users/signin --- POST --- "password" is required
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "name" is required
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "name" is required
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "name" is required
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "name" must be a string
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	12:30:46-----/api/users/signup --- POST --- "name" is required
+31-01-2023	12:34:38-----/api/products/12345 --- GET --- Not found product
+31-01-2023	12:34:38-----/api/products/12345 --- GET --- Not found product
+31-01-2023	12:34:38-----/api/users/signin --- POST --- "email" is required
+31-01-2023	12:34:38-----/api/users/signin --- POST --- "email" is required
+31-01-2023	12:34:38-----/api/users/signin --- POST --- "password" is required
+31-01-2023	12:34:38-----/api/users/signin --- POST --- "email" must be a valid email
+31-01-2023	12:34:38-----/api/users/signin --- POST --- "password" is not allowed to be empty
+31-01-2023	12:34:38-----/api/users/signin --- POST --- "email" must be a string
+31-01-2023	12:34:38-----/api/users/signin --- POST --- "password" must be a string
+31-01-2023	12:34:38-----/api/users/signin --- POST --- "password" is required
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "name" is required
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "email" is required
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "name" is required
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "name" is required
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "name" must be a string
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	12:34:39-----/api/users/signup --- POST --- "name" is required
+31-01-2023	12:41:17-----/api/products/123456 --- GET --- Not found product
+31-01-2023	12:41:17-----/api/products/123456 --- GET --- Not found product
+31-01-2023	12:43:02-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	12:44:46-----/api/products/%2763d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	12:46:49-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	12:46:49-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	12:46:50-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	12:46:50-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	14:20:35-----/api/users/signin --- POST --- "email" is required
+31-01-2023	14:20:35-----/api/users/signin --- POST --- "email" is required
+31-01-2023	14:20:35-----/api/users/signin --- POST --- "password" is required
+31-01-2023	14:20:35-----/api/users/signin --- POST --- "email" must be a valid email
+31-01-2023	14:20:35-----/api/users/signin --- POST --- "password" is not allowed to be empty
+31-01-2023	14:20:35-----/api/users/signin --- POST --- "email" must be a string
+31-01-2023	14:20:35-----/api/users/signin --- POST --- "password" must be a string
+31-01-2023	14:20:35-----/api/users/signin --- POST --- "password" is required
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "email" is required
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "email" is required
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "email" is required
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "name" is required
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "email" is required
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "email" is required
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "email" is required
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "name" is required
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "name" is required
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "name" must be a string
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	14:20:36-----/api/users/signup --- POST --- "name" is required
+31-01-2023	14:20:45-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	14:50:38-----/api/users/signin --- POST --- "email" is required
+31-01-2023	14:50:38-----/api/users/signin --- POST --- "email" is required
+31-01-2023	14:50:38-----/api/users/signin --- POST --- "password" is required
+31-01-2023	14:50:38-----/api/users/signin --- POST --- "email" must be a valid email
+31-01-2023	14:50:38-----/api/users/signin --- POST --- "password" is not allowed to be empty
+31-01-2023	14:50:38-----/api/users/signin --- POST --- "email" must be a string
+31-01-2023	14:50:38-----/api/users/signin --- POST --- "password" must be a string
+31-01-2023	14:50:38-----/api/users/signin --- POST --- "password" is required
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "email" is required
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "email" is required
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "email" is required
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "name" is required
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "email" is required
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "email" is required
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "email" is required
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "name" is required
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "name" is required
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "name" must be a string
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	14:50:39-----/api/users/signup --- POST --- "name" is required
+31-01-2023	14:50:40-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	14:50:40-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:17:30-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:17:30-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:17:30-----/api/products/product:e9f14b57-19fe-4c80-8b18-708710b7c219 --- GET --- Not found product
+31-01-2023	15:17:30-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:17:58-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:17:58-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:17:58-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:19:08-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:19:08-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:19:08-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:22:04-----/api/users/signin --- POST --- "email" is required
+31-01-2023	15:22:04-----/api/users/signin --- POST --- "email" is required
+31-01-2023	15:22:04-----/api/users/signin --- POST --- "password" is required
+31-01-2023	15:22:04-----/api/users/signin --- POST --- "email" must be a valid email
+31-01-2023	15:22:04-----/api/users/signin --- POST --- "password" is not allowed to be empty
+31-01-2023	15:22:04-----/api/users/signin --- POST --- "email" must be a string
+31-01-2023	15:22:04-----/api/users/signin --- POST --- "password" must be a string
+31-01-2023	15:22:04-----/api/users/signin --- POST --- "password" is required
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "email" is required
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "email" is required
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "email" is required
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "name" is required
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "email" is required
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "email" is required
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "email" is not allowed to be empty
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "email" is required
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "name" is required
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "name" is required
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "email" must be a valid email
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "Confirm password" does not match
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "email" must be a string
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "name" must be a string
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	15:22:04-----/api/users/signup --- POST --- "name" is required
+31-01-2023	15:22:05-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:22:05-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:22:05-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:25:09-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:25:09-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:25:09-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:33:52-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:33:52-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:33:52-----/api/products --- POST --- Unauthorized
+31-01-2023	15:33:52-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:34:48-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:34:48-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:34:49-----/api/products --- POST --- Unauthorized
+31-01-2023	15:34:49-----/api/products/undefined --- GET --- Not found product
+31-01-2023	15:34:49-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:38:39-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:38:39-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:38:39-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:39:04-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:39:04-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:39:05-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:42:51-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:42:51-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:42:51-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:44:21-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:44:21-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:44:21-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:46:00-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:46:00-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:46:00-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:48:03-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:48:03-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:48:03-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:49:12-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:49:12-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:49:12-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:50:50-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:50:50-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	15:50:50-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:02:03-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:02:03-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:02:03-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:04:08-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:04:08-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:04:08-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:04:08-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:06:34-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:06:34-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:06:34-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:10:45-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:10:45-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:10:50-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:12:28-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:12:28-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:12:28-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:14:08-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:14:09-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:14:09-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:22:02-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:22:02-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:22:02-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:29:19-----/api/products --- POST --- Unauthorized
+31-01-2023	16:29:49-----/api/products --- POST --- Unauthorized
+31-01-2023	16:30:13-----/api/products --- POST --- Unauthorized
+31-01-2023	16:31:36-----/api/products --- POST --- Unauthorized
+31-01-2023	16:34:52-----/api/products --- POST --- Unauthorized
+31-01-2023	16:39:11-----/api/products --- POST --- Unauthorized
+31-01-2023	16:39:25-----/api/products/63d6460a95d7c852b8be9d58 --- DELETE --- Unauthorized
+31-01-2023	16:39:27-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Unauthorized
+31-01-2023	16:41:19-----/api/products --- POST --- Unauthorized
+31-01-2023	16:41:46-----/api/products --- POST --- Unauthorized
+31-01-2023	16:44:44-----/api/products --- POST --- Unauthorized
+31-01-2023	16:46:29-----/api/products --- POST --- Unauthorized
+31-01-2023	16:47:13-----/api/products --- POST --- Unauthorized
+31-01-2023	16:47:15-----/api/products --- POST --- Unauthorized
+31-01-2023	16:47:15-----/api/products --- POST --- Unauthorized
+31-01-2023	16:56:35-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:56:35-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:56:35-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:57:52-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	16:59:02-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	17:00:13-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	17:00:59-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	17:03:08-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	17:03:45-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	17:04:35-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	17:07:53-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	17:08:12-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:12-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	17:08:13-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	17:12:14-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	17:12:14-----/api/products --- POST --- Unauthorized
+31-01-2023	17:15:23-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	17:15:23-----/api/products --- POST --- Unauthorized
+31-01-2023	19:27:20-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:20-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:27:21-----/api/products --- POST --- Unauthorized
+31-01-2023	19:41:12-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:41:12-----/api/products --- POST --- Unauthorized
+31-01-2023	19:41:13-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	19:41:29-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:41:29-----/api/products --- POST --- Unauthorized
+31-01-2023	19:41:29-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	19:42:07-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:42:07-----/api/products --- POST --- Unauthorized
+31-01-2023	19:42:07-----/api/products --- POST --- "userId" is not allowed
+31-01-2023	19:44:33-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:44:34-----/api/products --- POST --- Unauthorized
+31-01-2023	19:44:34-----/api/products --- POST --- Internal server error
+31-01-2023	19:45:48-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:45:48-----/api/products --- POST --- Unauthorized
+31-01-2023	19:49:47-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:47-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:49:49-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:49:49-----/api/products --- POST --- Unauthorized
+31-01-2023	19:51:25-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:51:26-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:51:26-----/api/products --- POST --- Unauthorized
+31-01-2023	19:54:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:12-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:54:12-----/api/products --- POST --- Unauthorized
+31-01-2023	19:54:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:32-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:54:33-----/api/products --- POST --- Unauthorized
+31-01-2023	19:54:53-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:53-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:54:55-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:54:55-----/api/products --- POST --- Unauthorized
+31-01-2023	19:55:08-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:08-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:09-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:55:09-----/api/products --- POST --- Unauthorized
+31-01-2023	19:55:25-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:25-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:26-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:55:26-----/api/products --- POST --- Unauthorized
+31-01-2023	19:55:46-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:46-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:55:47-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:55:47-----/api/products --- POST --- Unauthorized
+31-01-2023	19:56:00-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:00-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:02-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:56:02-----/api/products --- POST --- Unauthorized
+31-01-2023	19:56:55-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:55-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:56:56-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:56:56-----/api/products --- POST --- Unauthorized
+31-01-2023	19:57:29-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:29-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:57:31-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:57:31-----/api/products --- POST --- Unauthorized
+31-01-2023	19:58:09-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:58:09-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:14-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	19:59:15-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	19:59:15-----/api/products --- POST --- Unauthorized
+31-01-2023	20:00:19-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:19-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:00:20-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:00:20-----/api/products --- POST --- Unauthorized
+31-01-2023	20:01:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:11-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:01:11-----/api/products --- POST --- Unauthorized
+31-01-2023	20:01:22-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:22-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:01:23-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:01:23-----/api/products --- POST --- Unauthorized
+31-01-2023	20:02:17-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:17-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:02:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:03:08-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:03:08-----/api/products --- POST --- Unauthorized
+31-01-2023	20:03:09-----/api/products --- POST --- "description" is required
+31-01-2023	20:03:09-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:03:09-----/api/products --- POST --- "image" is required
+31-01-2023	20:03:09-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:03:09-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:03:09-----/api/products --- POST --- Internal server error
+31-01-2023	20:03:09-----/api/products --- POST --- Internal server error
+31-01-2023	20:03:09-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:04:15-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:15-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:16-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:04:16-----/api/products --- POST --- Unauthorized
+31-01-2023	20:04:16-----/api/products --- POST --- "description" is required
+31-01-2023	20:04:16-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:04:16-----/api/products --- POST --- "image" is required
+31-01-2023	20:04:16-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:04:16-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:04:16-----/api/products --- POST --- Internal server error
+31-01-2023	20:04:16-----/api/products --- POST --- Internal server error
+31-01-2023	20:04:16-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:04:39-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:39-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:40-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:04:40-----/api/products --- POST --- Unauthorized
+31-01-2023	20:04:41-----/api/products --- POST --- "description" is required
+31-01-2023	20:04:41-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:04:41-----/api/products --- POST --- "image" is required
+31-01-2023	20:04:41-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:04:41-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:04:41-----/api/products --- POST --- Internal server error
+31-01-2023	20:04:41-----/api/products --- POST --- Internal server error
+31-01-2023	20:04:41-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:04:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:04:58-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:04:58-----/api/products --- POST --- Unauthorized
+31-01-2023	20:04:59-----/api/products --- POST --- "description" is required
+31-01-2023	20:04:59-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:04:59-----/api/products --- POST --- "image" is required
+31-01-2023	20:04:59-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:04:59-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:04:59-----/api/products --- POST --- Internal server error
+31-01-2023	20:04:59-----/api/products --- POST --- Internal server error
+31-01-2023	20:04:59-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:07:38-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:38-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:07:39-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:07:39-----/api/products --- POST --- Unauthorized
+31-01-2023	20:07:39-----/api/products --- POST --- "description" is required
+31-01-2023	20:07:39-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:07:39-----/api/products --- POST --- "image" is required
+31-01-2023	20:07:39-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:07:39-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:07:39-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:07:39-----/api/products --- POST --- Unauthorized
+31-01-2023	20:07:39-----/api/products --- POST --- "description" is required
+31-01-2023	20:07:39-----/api/products --- POST --- "image" is required
+31-01-2023	20:07:39-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:07:39-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:07:39-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:07:39-----/api/products --- POST --- Internal server error
+31-01-2023	20:07:39-----/api/products --- POST --- Internal server error
+31-01-2023	20:07:39-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:08:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:08:59-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:08:59-----/api/products --- POST --- Unauthorized
+31-01-2023	20:08:59-----/api/products --- POST --- "description" is required
+31-01-2023	20:08:59-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:08:59-----/api/products --- POST --- "image" is required
+31-01-2023	20:08:59-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:08:59-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:08:59-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:08:59-----/api/products --- PUT --- Unauthorized
+31-01-2023	20:08:59-----/api/products --- PUT --- Not found
+31-01-2023	20:08:59-----/api/products --- POST --- "description" is required
+31-01-2023	20:08:59-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:08:59-----/api/products --- POST --- "image" is required
+31-01-2023	20:08:59-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:08:59-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:08:59-----/api/products --- POST --- Internal server error
+31-01-2023	20:08:59-----/api/products --- POST --- Internal server error
+31-01-2023	20:08:59-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:23:46-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:23:46-----/api/products --- POST --- Unauthorized
+31-01-2023	20:28:01-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:28:01-----/api/products --- POST --- Unauthorized
+31-01-2023	20:28:01-----/api/products --- POST --- "description" is required
+31-01-2023	20:28:01-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:28:01-----/api/products --- POST --- "image" is required
+31-01-2023	20:28:01-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:28:01-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:28:01-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:28:01-----/api/products63d917619a3c61ac7da56074 --- PUT --- Not found
+31-01-2023	20:30:28-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:30:29-----/api/products --- POST --- Unauthorized
+31-01-2023	20:30:29-----/api/products --- POST --- "description" is required
+31-01-2023	20:30:29-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:30:29-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:30:29-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:30:29-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:30:29-----/api/products --- POST --- "image" is required
+31-01-2023	20:30:29-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:30:29-----/api/products/63d917f5d2a2a232898837ef --- PUT --- Unauthorized
+31-01-2023	20:32:22-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:32:22-----/api/products --- POST --- Unauthorized
+31-01-2023	20:32:22-----/api/products --- POST --- "description" is required
+31-01-2023	20:32:22-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:32:22-----/api/products --- POST --- "image" is required
+31-01-2023	20:32:22-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:32:22-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:32:22-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:32:22-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:32:22-----/api/products/63d9186694bf9bb2a694bd2b --- PUT --- Unauthorized
+31-01-2023	20:33:08-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:33:08-----/api/products --- POST --- Unauthorized
+31-01-2023	20:33:08-----/api/products --- POST --- "description" is required
+31-01-2023	20:33:08-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:33:08-----/api/products --- POST --- "image" is required
+31-01-2023	20:33:08-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:33:08-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:33:08-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:33:08-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:33:08-----/api/products/63d918949004bc250d12a984 --- PUT --- Unauthorized
+31-01-2023	20:34:14-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:34:14-----/api/products --- POST --- Unauthorized
+31-01-2023	20:34:14-----/api/products --- POST --- "description" is required
+31-01-2023	20:34:14-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:34:14-----/api/products --- POST --- "image" is required
+31-01-2023	20:34:14-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:34:14-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:34:14-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:34:14-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:34:14-----/api/products/63d918d6f5b491ef5f85194d --- PUT --- Unauthorized
+31-01-2023	20:35:10-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:35:10-----/api/products --- POST --- Unauthorized
+31-01-2023	20:35:10-----/api/products --- POST --- "description" is required
+31-01-2023	20:35:10-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:35:10-----/api/products --- POST --- "image" is required
+31-01-2023	20:35:10-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:35:10-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:35:10-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:35:10-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:35:10-----/api/products/63d9190ef32e2b7f96098637 --- PUT --- Unauthorized
+31-01-2023	20:35:44-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:35:44-----/api/products --- POST --- Unauthorized
+31-01-2023	20:35:44-----/api/products --- POST --- "description" is required
+31-01-2023	20:35:44-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:35:44-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:35:44-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:35:44-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:35:44-----/api/products --- POST --- "image" is required
+31-01-2023	20:35:44-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:35:44-----/api/products/63d919303b6a11282456d6ef --- PUT --- Unauthorized
+31-01-2023	20:36:45-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:36:46-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:36:46-----/api/products --- POST --- Unauthorized
+31-01-2023	20:36:46-----/api/products --- POST --- "description" is required
+31-01-2023	20:36:46-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:36:46-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:36:46-----/api/products --- POST --- "image" is required
+31-01-2023	20:36:46-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:36:46-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:36:46-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:36:46-----/api/products/63d9196edd251d78f632bad3 --- PUT --- Unauthorized
+31-01-2023	20:37:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:12-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:37:13-----/api/products --- POST --- Unauthorized
+31-01-2023	20:37:13-----/api/products --- POST --- "description" is required
+31-01-2023	20:37:13-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:37:13-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:37:13-----/api/products --- POST --- "image" is required
+31-01-2023	20:37:13-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:37:13-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:37:13-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:37:13-----/api/products/63d919893fa08d070a25dd60 --- PUT --- Unauthorized
+31-01-2023	20:37:35-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:35-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:37:36-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:37:36-----/api/products --- POST --- Unauthorized
+31-01-2023	20:37:36-----/api/products --- POST --- "description" is required
+31-01-2023	20:37:36-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:37:36-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:37:36-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:37:36-----/api/products --- POST --- "image" is required
+31-01-2023	20:37:36-----/api/products --- POST --- Internal server error
+31-01-2023	20:37:36-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:37:36-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:38:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:11-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:38:11-----/api/products --- POST --- Unauthorized
+31-01-2023	20:38:11-----/api/products --- POST --- "description" is required
+31-01-2023	20:38:11-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:38:11-----/api/products --- POST --- "image" is required
+31-01-2023	20:38:11-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:38:11-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:38:11-----/api/products --- POST --- Internal server error
+31-01-2023	20:38:11-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:38:11-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:38:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:31-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:38:31-----/api/products --- POST --- Unauthorized
+31-01-2023	20:38:32-----/api/products --- POST --- "description" is required
+31-01-2023	20:38:32-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:38:32-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:38:32-----/api/products --- POST --- "image" is required
+31-01-2023	20:38:32-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:38:32-----/api/products --- POST --- Internal server error
+31-01-2023	20:38:32-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:38:32-----/api/products --- POST --- "description" length must be at least 120 characters long
+31-01-2023	20:38:45-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:45-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:46-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:38:46-----/api/products --- POST --- Unauthorized
+31-01-2023	20:38:46-----/api/products --- POST --- "description" is required
+31-01-2023	20:38:46-----/api/products --- POST --- "image" is required
+31-01-2023	20:38:46-----/api/products --- POST --- "price" is required
+31-01-2023	20:38:46-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:38:46-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:38:46-----/api/products --- POST --- Internal server error
+31-01-2023	20:38:46-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:38:46-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:38:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:57-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:38:58-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:38:58-----/api/products --- POST --- Unauthorized
+31-01-2023	20:38:58-----/api/products --- POST --- "description" is required
+31-01-2023	20:38:58-----/api/products --- POST --- "price" is required
+31-01-2023	20:38:58-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:38:58-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:38:58-----/api/products --- POST --- "image" is required
+31-01-2023	20:38:58-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:38:58-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:38:59-----/api/products/63d919f29067d9a47890dc31 --- PUT --- "description" is required
+31-01-2023	20:38:59-----/api/products/63d919f29067d9a47890dc31 --- PUT --- "price" is required
+31-01-2023	20:38:59-----/api/products/63d919f29067d9a47890dc31 --- PUT --- "image" is required
+31-01-2023	20:38:59-----/api/products/63d919f29067d9a47890dc31 --- PUT --- "description" length must be at least 50 characters long
+31-01-2023	20:38:59-----/api/products/63d919f29067d9a47890dc31 --- PUT --- "title" is not allowed to be empty
+31-01-2023	20:38:59-----/api/products/63d919f29067d9a47890dc31 --- PUT --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:38:59-----/api/products/63d919f29067d9a47890dc31 --- PUT --- "description" length must be at least 50 characters long
+31-01-2023	20:40:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:11-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:40:13-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:40:13-----/api/products --- POST --- Unauthorized
+31-01-2023	20:40:13-----/api/products --- POST --- "description" is required
+31-01-2023	20:40:13-----/api/products --- POST --- "image" is required
+31-01-2023	20:40:13-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:40:13-----/api/products --- POST --- "price" is required
+31-01-2023	20:40:13-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:40:13-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:40:13-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:40:13-----/api/products/63d91a3d7a6e23d53df583ba --- PUT --- Unauthorized
+31-01-2023	20:40:49-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:40:49-----/api/products --- POST --- Unauthorized
+31-01-2023	20:40:49-----/api/products --- POST --- "description" is required
+31-01-2023	20:40:49-----/api/products --- POST --- "image" is required
+31-01-2023	20:40:49-----/api/products --- POST --- "price" is required
+31-01-2023	20:40:49-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:40:49-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:40:49-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:40:49-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:40:49-----/api/products/63d91a61af807557ffff3b32 --- PUT --- Unauthorized
+31-01-2023	20:42:18-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:18-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:19-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:42:20-----/api/products --- POST --- Unauthorized
+31-01-2023	20:42:20-----/api/products --- POST --- "description" is required
+31-01-2023	20:42:20-----/api/products --- POST --- "image" is required
+31-01-2023	20:42:20-----/api/products --- POST --- "price" is required
+31-01-2023	20:42:20-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:42:20-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:42:20-----/api/products --- POST --- Internal server error
+31-01-2023	20:42:20-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:42:20-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:42:41-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:41-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:42:42-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:42:42-----/api/products --- POST --- Unauthorized
+31-01-2023	20:42:42-----/api/products --- POST --- "description" is required
+31-01-2023	20:42:42-----/api/products --- POST --- "image" is required
+31-01-2023	20:42:42-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:42:42-----/api/products --- POST --- "price" is required
+31-01-2023	20:42:42-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:42:42-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:42:42-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:43:07-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:07-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:43:09-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:43:09-----/api/products --- POST --- Unauthorized
+31-01-2023	20:43:09-----/api/products --- POST --- "description" is required
+31-01-2023	20:43:09-----/api/products --- POST --- "price" is required
+31-01-2023	20:43:09-----/api/products --- POST --- "image" is required
+31-01-2023	20:43:09-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:43:09-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:43:09-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:43:09-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:45:10-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:45:10-----/api/products --- POST --- Unauthorized
+31-01-2023	20:46:22-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:46:22-----/api/products --- POST --- Unauthorized
+31-01-2023	20:46:22-----/api/products --- POST --- "description" is required
+31-01-2023	20:46:22-----/api/products --- POST --- "price" is required
+31-01-2023	20:46:22-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:46:22-----/api/products --- POST --- "image" is required
+31-01-2023	20:46:22-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:46:22-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:46:22-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:46:22-----/api/products/63d91bae98c47e3a7dc7be1e --- PUT --- Unauthorized
+31-01-2023	20:46:44-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:46:44-----/api/products --- POST --- Unauthorized
+31-01-2023	20:46:44-----/api/products --- POST --- "description" is required
+31-01-2023	20:46:44-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:46:44-----/api/products --- POST --- "image" is required
+31-01-2023	20:46:44-----/api/products --- POST --- "price" is required
+31-01-2023	20:46:44-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:46:44-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:46:44-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:46:44-----/api/products/63d91bc4d09bf935ef89a2d4 --- PUT --- Unauthorized
+31-01-2023	20:47:38-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:47:38-----/api/products --- POST --- Unauthorized
+31-01-2023	20:47:39-----/api/products --- POST --- "description" is required
+31-01-2023	20:47:39-----/api/products --- POST --- "price" is required
+31-01-2023	20:47:39-----/api/products --- POST --- "image" is required
+31-01-2023	20:47:39-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:47:39-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:47:39-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:47:39-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:47:39-----/api/products/63d91bfb9f13f3a721b7a4a1 --- PUT --- Unauthorized
+31-01-2023	20:48:22-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:48:22-----/api/products --- POST --- Unauthorized
+31-01-2023	20:48:43-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:43-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:48:45-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:48:45-----/api/products --- POST --- Unauthorized
+31-01-2023	20:48:45-----/api/products --- POST --- "description" is required
+31-01-2023	20:48:45-----/api/products --- POST --- "price" is required
+31-01-2023	20:48:45-----/api/products --- POST --- "image" is required
+31-01-2023	20:48:45-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:48:45-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:48:45-----/api/products --- POST --- Internal server error
+31-01-2023	20:48:45-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:48:45-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:49:03-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:03-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:05-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:49:05-----/api/products --- POST --- Unauthorized
+31-01-2023	20:49:05-----/api/products --- POST --- "description" is required
+31-01-2023	20:49:05-----/api/products --- POST --- "image" is required
+31-01-2023	20:49:05-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:49:05-----/api/products --- POST --- "price" is required
+31-01-2023	20:49:05-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:49:05-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:49:05-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:49:32-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:32-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:49:33-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:49:33-----/api/products --- POST --- Unauthorized
+31-01-2023	20:49:33-----/api/products --- POST --- "description" is required
+31-01-2023	20:49:33-----/api/products --- POST --- "price" is required
+31-01-2023	20:49:33-----/api/products --- POST --- "image" is required
+31-01-2023	20:49:33-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:49:33-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:49:33-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:49:33-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:51:01-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:51:01-----/api/products --- POST --- Unauthorized
+31-01-2023	20:51:01-----/api/products --- POST --- "description" is required
+31-01-2023	20:51:01-----/api/products --- POST --- "image" is required
+31-01-2023	20:51:01-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:51:01-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:51:01-----/api/products --- POST --- "price" is required
+31-01-2023	20:51:01-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:51:01-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:52:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signin --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:10-----/api/users/signup --- POST --- unsupported charset "UTF-8"
+31-01-2023	20:52:11-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:52:11-----/api/products --- POST --- Unauthorized
+31-01-2023	20:52:32-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:52:32-----/api/products --- POST --- Unauthorized
+31-01-2023	20:53:24-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:53:24-----/api/products --- POST --- Unauthorized
+31-01-2023	20:53:24-----/api/products --- POST --- "description" is required
+31-01-2023	20:53:24-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:53:24-----/api/products --- POST --- "price" is required
+31-01-2023	20:53:24-----/api/products --- POST --- "image" is required
+31-01-2023	20:53:24-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:53:24-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:53:24-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:57:52-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:57:52-----/api/products --- POST --- Unauthorized
+31-01-2023	20:57:52-----/api/products --- POST --- "description" is required
+31-01-2023	20:57:52-----/api/products --- POST --- "price" is required
+31-01-2023	20:57:52-----/api/products --- POST --- "image" is required
+31-01-2023	20:57:52-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:57:52-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:57:52-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:57:52-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:57:52-----/api/products/63d91e604ee081ed33a5eee5 --- PUT --- Unauthorized
+31-01-2023	20:58:37-----/api/products/63d91e8d2738a4d95c97d67d --- PUT --- Unauthorized
+31-01-2023	20:59:09-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:59:09-----/api/products --- POST --- Unauthorized
+31-01-2023	20:59:09-----/api/products --- POST --- "description" is required
+31-01-2023	20:59:09-----/api/products --- POST --- "price" is required
+31-01-2023	20:59:09-----/api/products --- POST --- "image" is required
+31-01-2023	20:59:09-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:59:09-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	20:59:09-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	20:59:09-----/api/products/63d91ead97e2a9eba128803f --- PUT --- Unauthorized
+31-01-2023	20:59:49-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	20:59:49-----/api/products --- POST --- Unauthorized
+31-01-2023	20:59:50-----/api/products --- POST --- "description" is required
+31-01-2023	20:59:50-----/api/products --- POST --- "price" is required
+31-01-2023	20:59:50-----/api/products --- POST --- "image" is required
+31-01-2023	20:59:50-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	20:59:50-----/api/products/63d91ed5e4256e39f2a2ae6f --- PUT --- Unauthorized
+31-01-2023	21:00:13-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	21:00:13-----/api/products --- POST --- Unauthorized
+31-01-2023	21:00:13-----/api/products --- POST --- "description" is required
+31-01-2023	21:00:13-----/api/products --- POST --- "image" is required
+31-01-2023	21:00:13-----/api/products --- POST --- "price" is required
+31-01-2023	21:00:13-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	21:00:13-----/api/products/63d91eedf8ab5c932636baff --- PUT --- Unauthorized
+31-01-2023	21:00:38-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	21:00:38-----/api/products --- POST --- Unauthorized
+31-01-2023	21:00:38-----/api/products --- POST --- "description" is required
+31-01-2023	21:00:38-----/api/products --- POST --- "price" is required
+31-01-2023	21:00:38-----/api/products --- POST --- "image" is required
+31-01-2023	21:00:38-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	21:00:38-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:00:38-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:00:38-----/api/products/63d91f06d0fe31410e90af99 --- PUT --- Unauthorized
+31-01-2023	21:01:07-----/api/products --- POST --- Unauthorized
+31-01-2023	21:01:19-----/api/products/63d91f2fc5e68402b9b76d64 --- PUT --- Unauthorized
+31-01-2023	21:01:58-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	21:01:58-----/api/products --- POST --- Unauthorized
+31-01-2023	21:01:59-----/api/products --- POST --- "description" is required
+31-01-2023	21:01:59-----/api/products --- POST --- "image" is required
+31-01-2023	21:01:59-----/api/products --- POST --- "price" is required
+31-01-2023	21:01:59-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	21:01:59-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:01:59-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:01:59-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:01:59-----/api/products/63d91f5786e65037e5c566a8 --- PUT --- Unauthorized
+31-01-2023	21:02:25-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	21:02:25-----/api/products --- POST --- Unauthorized
+31-01-2023	21:02:25-----/api/products --- POST --- "description" is required
+31-01-2023	21:02:25-----/api/products --- POST --- "image" is required
+31-01-2023	21:02:25-----/api/products --- POST --- "price" is required
+31-01-2023	21:02:25-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	21:02:25-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:02:25-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:02:25-----/api/products/63d91f71fb6bd285aba1f9b2 --- PUT --- Unauthorized
+31-01-2023	21:02:52-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	21:02:52-----/api/products --- POST --- Unauthorized
+31-01-2023	21:02:52-----/api/products --- POST --- "description" is required
+31-01-2023	21:02:52-----/api/products --- POST --- "image" is required
+31-01-2023	21:02:52-----/api/products --- POST --- "price" is required
+31-01-2023	21:02:52-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	21:02:52-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:02:52-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:02:52-----/api/products/63d91f8cacbcea2f6e3d0d68 --- PUT --- Unauthorized
+31-01-2023	21:03:33-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	21:03:33-----/api/products --- POST --- Unauthorized
+31-01-2023	21:03:33-----/api/products --- POST --- "description" is required
+31-01-2023	21:03:33-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	21:03:33-----/api/products --- POST --- "image" is required
+31-01-2023	21:03:33-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:03:33-----/api/products --- POST --- "price" is required
+31-01-2023	21:03:33-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:03:33-----/api/products --- POST --- "price" must be a number
+31-01-2023	21:03:33-----/api/products/63d91fb5af3fef15286d4093 --- PUT --- Unauthorized
+31-01-2023	21:03:55-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	21:03:55-----/api/products --- POST --- Unauthorized
+31-01-2023	21:03:55-----/api/products --- POST --- "description" is required
+31-01-2023	21:03:55-----/api/products --- POST --- "image" is required
+31-01-2023	21:03:55-----/api/products --- POST --- "price" is required
+31-01-2023	21:03:55-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	21:03:55-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:03:55-----/api/products --- POST --- "price" must be a number
+31-01-2023	21:03:55-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:03:55-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:03:55-----/api/products/63d91fcb562ae96f711d6d53 --- PUT --- Unauthorized
+31-01-2023	21:06:24-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	21:06:24-----/api/products --- POST --- Unauthorized
+31-01-2023	21:06:24-----/api/products --- POST --- "description" is required
+31-01-2023	21:06:24-----/api/products --- POST --- "image" is required
+31-01-2023	21:06:24-----/api/products --- POST --- "price" is required
+31-01-2023	21:06:24-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	21:06:24-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:06:24-----/api/products --- POST --- "price" must be a number
+31-01-2023	21:06:24-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:06:24-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:06:24-----/api/products/63d9206075add7d55c2df13a --- PUT --- Unauthorized
+31-01-2023	21:06:24-----/api/products/63d9206075add7d55c2df141 --- PUT --- "description" is required
+31-01-2023	21:06:24-----/api/products/63d9206075add7d55c2df141 --- PUT --- "image" is required
+31-01-2023	21:06:24-----/api/products/63d9206075add7d55c2df141 --- PUT --- "title" is not allowed to be empty
+31-01-2023	21:06:24-----/api/products/63d9206075add7d55c2df141 --- PUT --- "description" length must be at least 50 characters long
+31-01-2023	21:06:24-----/api/products/63d9206075add7d55c2df141 --- PUT --- "price" must be a number
+31-01-2023	21:06:24-----/api/products/63d9206075add7d55c2df141 --- PUT --- "price" is required
+31-01-2023	21:06:24-----/api/products/63d9206075add7d55c2df141 --- PUT --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:06:24-----/api/products/63d9206075add7d55c2df141 --- PUT --- "description" length must be at least 50 characters long
+31-01-2023	21:06:25-----/api/products/63d9206075add7d55c2df144 --- DELETE --- Unauthorized
+31-01-2023	21:09:49-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	21:09:49-----/api/products --- POST --- Unauthorized
+31-01-2023	21:09:49-----/api/products --- POST --- "description" is required
+31-01-2023	21:09:49-----/api/products --- POST --- "price" is required
+31-01-2023	21:09:49-----/api/products --- POST --- "image" is required
+31-01-2023	21:09:49-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	21:09:49-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:09:49-----/api/products --- POST --- "price" must be a number
+31-01-2023	21:09:49-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:09:49-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:09:49-----/api/products/63d9212ddf223d54ed22a5e5 --- PUT --- Unauthorized
+31-01-2023	21:09:49-----/api/products/63d9212ddf223d54ed22a5ec --- PUT --- "description" is required
+31-01-2023	21:09:49-----/api/products/63d9212ddf223d54ed22a5ec --- PUT --- "price" is required
+31-01-2023	21:09:49-----/api/products/63d9212ddf223d54ed22a5ec --- PUT --- "title" is not allowed to be empty
+31-01-2023	21:09:49-----/api/products/63d9212ddf223d54ed22a5ec --- PUT --- "description" length must be at least 50 characters long
+31-01-2023	21:09:49-----/api/products/63d9212ddf223d54ed22a5ec --- PUT --- "price" must be a number
+31-01-2023	21:09:49-----/api/products/63d9212ddf223d54ed22a5ec --- PUT --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:09:49-----/api/products/63d9212ddf223d54ed22a5ec --- PUT --- "image" is required
+31-01-2023	21:09:49-----/api/products/63d9212ddf223d54ed22a5ec --- PUT --- "description" length must be at least 50 characters long
+31-01-2023	21:09:49-----/api/products/63d9212ddf223d54ed22a5ef --- DELETE --- Unauthorized
+31-01-2023	21:16:16-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	21:16:16-----/api/products --- POST --- Unauthorized
+31-01-2023	21:16:16-----/api/products --- POST --- "description" is required
+31-01-2023	21:16:16-----/api/products --- POST --- "price" is required
+31-01-2023	21:16:16-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	21:16:16-----/api/products --- POST --- "image" is required
+31-01-2023	21:16:16-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:16:16-----/api/products --- POST --- "price" must be a number
+31-01-2023	21:16:16-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:16:16-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:16:16-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Unauthorized
+31-01-2023	21:16:16-----/api/products/63d922b0e4ff2527a10a3cde --- PUT --- Unauthorized
+31-01-2023	21:16:16-----/api/products/63d922b0e4ff2527a10a3ce5 --- PUT --- "description" is required
+31-01-2023	21:16:16-----/api/products/63d922b0e4ff2527a10a3ce5 --- PUT --- "price" is required
+31-01-2023	21:16:16-----/api/products/63d922b0e4ff2527a10a3ce5 --- PUT --- "title" is not allowed to be empty
+31-01-2023	21:16:16-----/api/products/63d922b0e4ff2527a10a3ce5 --- PUT --- "description" length must be at least 50 characters long
+31-01-2023	21:16:16-----/api/products/63d922b0e4ff2527a10a3ce5 --- PUT --- "price" must be a number
+31-01-2023	21:16:16-----/api/products/63d922b0e4ff2527a10a3ce5 --- PUT --- "image" is required
+31-01-2023	21:16:16-----/api/products/63d922b0e4ff2527a10a3ce5 --- PUT --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:16:16-----/api/products/63d922b0e4ff2527a10a3ce5 --- PUT --- "description" length must be at least 50 characters long
+31-01-2023	21:16:16-----/api/products/63d6460a95d7c852b8be9d58 --- DELETE --- Unauthorized
+31-01-2023	21:16:16-----/api/products/63d922b0e4ff2527a10a3ceb --- DELETE --- Unauthorized
+31-01-2023	21:17:30-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	21:17:30-----/api/products --- POST --- Unauthorized
+31-01-2023	21:17:30-----/api/products --- POST --- "description" is required
+31-01-2023	21:17:30-----/api/products --- POST --- "price" is required
+31-01-2023	21:17:30-----/api/products --- POST --- "image" is required
+31-01-2023	21:17:30-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	21:17:30-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:17:30-----/api/products --- POST --- "price" must be a number
+31-01-2023	21:17:30-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:17:30-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:17:30-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- "title" is required
+31-01-2023	21:17:30-----/api/products/63d922faf100c6682183b1d5 --- PUT --- Unauthorized
+31-01-2023	21:17:30-----/api/products/63d922faf100c6682183b1dc --- PUT --- "description" is required
+31-01-2023	21:17:30-----/api/products/63d922faf100c6682183b1dc --- PUT --- "title" is not allowed to be empty
+31-01-2023	21:17:30-----/api/products/63d922faf100c6682183b1dc --- PUT --- "price" is required
+31-01-2023	21:17:30-----/api/products/63d922faf100c6682183b1dc --- PUT --- "description" length must be at least 50 characters long
+31-01-2023	21:17:30-----/api/products/63d922faf100c6682183b1dc --- PUT --- "image" is required
+31-01-2023	21:17:30-----/api/products/63d922faf100c6682183b1dc --- PUT --- "price" must be a number
+31-01-2023	21:17:30-----/api/products/63d922faf100c6682183b1dc --- PUT --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:17:30-----/api/products/63d922faf100c6682183b1dc --- PUT --- "description" length must be at least 50 characters long
+31-01-2023	21:17:30-----/api/products/63d922faf100c6682183b1e3 --- DELETE --- Unauthorized
+31-01-2023	21:18:26-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	21:18:27-----/api/products --- POST --- Unauthorized
+31-01-2023	21:18:27-----/api/products --- POST --- "description" is required
+31-01-2023	21:18:27-----/api/products --- POST --- "image" is required
+31-01-2023	21:18:27-----/api/products --- POST --- "price" is required
+31-01-2023	21:18:27-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	21:18:27-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:18:27-----/api/products --- POST --- "price" must be a number
+31-01-2023	21:18:27-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:18:27-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:18:27-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Internal server error
+31-01-2023	21:18:27-----/api/products/63d923330e1cc4b3a3684ae0 --- PUT --- Unauthorized
+31-01-2023	21:18:27-----/api/products/63d923330e1cc4b3a3684ae7 --- PUT --- "description" is required
+31-01-2023	21:18:27-----/api/products/63d923330e1cc4b3a3684ae7 --- PUT --- "title" is not allowed to be empty
+31-01-2023	21:18:27-----/api/products/63d923330e1cc4b3a3684ae7 --- PUT --- "description" length must be at least 50 characters long
+31-01-2023	21:18:27-----/api/products/63d923330e1cc4b3a3684ae7 --- PUT --- "image" is required
+31-01-2023	21:18:27-----/api/products/63d923330e1cc4b3a3684ae7 --- PUT --- "price" must be a number
+31-01-2023	21:18:27-----/api/products/63d923330e1cc4b3a3684ae7 --- PUT --- "price" is required
+31-01-2023	21:18:27-----/api/products/63d923330e1cc4b3a3684ae7 --- PUT --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:18:27-----/api/products/63d923330e1cc4b3a3684ae7 --- PUT --- "description" length must be at least 50 characters long
+31-01-2023	21:18:27-----/api/products/63d923330e1cc4b3a3684aee --- DELETE --- Unauthorized
+31-01-2023	21:20:23-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Internal server error
+31-01-2023	21:22:21-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Not found
+31-01-2023	21:22:44-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Not found
+31-01-2023	21:33:43-----/api/products/63d6460a95d7c852b8be9d58 --- DELETE --- Internal server error
+31-01-2023	21:34:34-----/api/products/63d6460a95d7c852b8be9d58 --- DELETE --- Not found
+31-01-2023	21:34:47-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found product
+31-01-2023	21:34:47-----/api/products --- POST --- Unauthorized
+31-01-2023	21:34:47-----/api/products --- POST --- "description" is required
+31-01-2023	21:34:47-----/api/products --- POST --- "price" is required
+31-01-2023	21:34:47-----/api/products --- POST --- "image" is required
+31-01-2023	21:34:47-----/api/products --- POST --- "title" is not allowed to be empty
+31-01-2023	21:34:47-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:34:47-----/api/products --- POST --- "price" must be a number
+31-01-2023	21:34:47-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:34:47-----/api/products --- POST --- "description" length must be at least 50 characters long
+31-01-2023	21:34:47-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Not found
+31-01-2023	21:34:47-----/api/products/63d927073eefa5c3bf81e0cd --- PUT --- Unauthorized
+31-01-2023	21:34:47-----/api/products/63d927073eefa5c3bf81e0d4 --- PUT --- "description" is required
+31-01-2023	21:34:47-----/api/products/63d927073eefa5c3bf81e0d4 --- PUT --- "image" is required
+31-01-2023	21:34:47-----/api/products/63d927073eefa5c3bf81e0d4 --- PUT --- "price" is required
+31-01-2023	21:34:47-----/api/products/63d927073eefa5c3bf81e0d4 --- PUT --- "title" is not allowed to be empty
+31-01-2023	21:34:47-----/api/products/63d927073eefa5c3bf81e0d4 --- PUT --- "description" length must be at least 50 characters long
+31-01-2023	21:34:47-----/api/products/63d927073eefa5c3bf81e0d4 --- PUT --- "price" must be a number
+31-01-2023	21:34:47-----/api/products/63d927073eefa5c3bf81e0d4 --- PUT --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+31-01-2023	21:34:47-----/api/products/63d927073eefa5c3bf81e0d4 --- PUT --- "description" length must be at least 50 characters long
+31-01-2023	21:34:47-----/api/products/63d6460a95d7c852b8be9d58 --- DELETE --- Not found
+31-01-2023	21:34:47-----/api/products/63d927073eefa5c3bf81e0db --- DELETE --- Unauthorized
+31-01-2023	21:35:36-----/api/products/63d8cefcc99a1c1fa4e3062f --- GET --- Not found product
+31-01-2023	21:35:46-----/api/products --- POST --- Unauthorized
+31-01-2023	21:35:50-----/api/products --- POST --- Unauthorized
+31-01-2023	21:36:16-----/api/products --- POST --- Unauthorized
+31-01-2023	21:37:11-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Not found
+31-01-2023	21:37:38-----/api/products/63d92777773ab15e856d79bf --- DELETE --- Unauthorized
+31-01-2023	21:37:39-----/api/products/63d92777773ab15e856d79bf --- DELETE --- Unauthorized
+31-01-2023	21:37:49-----/api/products/63d92777773ab15e856d79bf --- DELETE --- Not found
+31-01-2023	21:37:50-----/api/products/63d92777773ab15e856d79bf --- DELETE --- Not found
+31-01-2023	21:37:51-----/api/products/63d92777773ab15e856d79bf --- GET --- Not found product
+31-01-2023	21:37:52-----/api/products/63d92777773ab15e856d79bf --- GET --- Not found product
+31-01-2023	21:37:52-----/api/products/63d92777773ab15e856d79bf --- GET --- Not found product
+31-01-2023	21:37:52-----/api/products/63d92777773ab15e856d79bf --- GET --- Not found product
+31-01-2023	21:37:55-----/api/products/63d92777773ab15e856d79bf --- GET --- Not found product
+31-01-2023	21:37:55-----/api/products/63d92777773ab15e856d79bf --- GET --- Not found product
