@@ -3,10 +3,13 @@ import bcrypt from 'bcrypt';
 import config from '../../config';
 import { logger } from '../utils';
 
-export interface IUser extends mongoose.Document {
+export interface IUserInput {
     email: string;
     name: string;
     password: string;
+}
+
+export interface IUser extends IUserInput, mongoose.Document {
     createdAt: Date;
     updatedAt: Date;
 

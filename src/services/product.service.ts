@@ -1,35 +1,32 @@
-import mongoose, { Callback, DocumentDefinition, FilterQuery, Query, QueryOptions, QueryWithHelpers, UpdateQuery } from 'mongoose';
-import { IProduct, ProductModel } from '../models';
-import { ResultTypes } from 'ioredis/built/utils/RedisCommander';
+import { Callback, DocumentDefinition, FilterQuery, QueryOptions, UpdateQuery } from 'mongoose';
+import { IProduct, IProductInput, ProductModel } from '../models';
 
 export interface IProductService {
-    create(product: OmitProduct): Promise<IProduct>;
-    findOne(filter: FilterQuery<IProduct>, options?: QueryOptions): Promise<IProduct | null>;
-    findOneAndUpdate(filter: FilterQuery<IProduct>, update: UpdateQuery<IProduct>, options: QueryOptions): Promise<IProduct | null>;
+    create(product: IProductInput): Promise<IProduct>;
+    findOne(filter: FilterQuery<IProduct>, options?: QueryOptions<IProduct>): Promise<IProduct | null>;
+    findOneAndUpdate(filter: FilterQuery<IProduct>, update: UpdateQuery<IProduct>, options: QueryOptions<IProduct>): Promise<IProduct | null>;
     findOneAndDelete(filter: FilterQuery<IProduct>): Promise<unknown>;
 }
-
-type OmitProduct = DocumentDefinition<Omit<IProduct, 'createdAt' | 'updatedAt' | 'productId'>>;
 
 class ProductService implements IProductService {
     async find(filter?: Callback<IProduct[]> | undefined): Promise<IProduct | IProduct[] | {}> {
         return await ProductModel.find(filter);
     }
 
-    async create(product: OmitProduct): Promise<IProduct> {
+    async create(product: IProductInput): Promise<IProduct> {
         return (await ProductModel.create(product)).save();
     }
 
-    async findOne(filter: FilterQuery<IProduct>, options: QueryOptions = { lean: true }): Promise<IProduct | null> {
+    async findOne(filter: FilterQuery<IProduct>, options: QueryOptions<IProduct> = { lean: true }): Promise<IProduct | null> {
         return await ProductModel.findOne(filter, {}, options);
     }
 
-    async findOneAndUpdate(filter: FilterQuery<IProduct>, update: UpdateQuery<IProduct>, options: QueryOptions<unknown>): Promise<IProduct | null> {
+    async findOneAndUpdate(filter: FilterQuery<IProduct>, update: UpdateQuery<IProduct>, options: QueryOptions<IProduct>): Promise<IProduct | null> {
         return await ProductModel.findOneAndUpdate(filter, update, options);
     }
 
-    async findOneAndDelete(filter: FilterQuery<IProduct>): Promise<unknown> {
-        return await ProductModel.findOneAndDelete(filter);
+    async findOneAndDelete(filter: FilterQuery<IProduct>, options?: QueryOptions<IProduct>): Promise<unknown> {
+        return await ProductModel.findOneAndDelete(filter, options);
     }
 }
 

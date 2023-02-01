@@ -2,13 +2,16 @@ import { Document, Schema, Types, model } from 'mongoose';
 import { IUser } from './user.model';
 import { v4 as uuidv4 } from 'uuid';
 
-export interface IProduct extends Document {
+export interface IProductInput {
     userId: IUser['_id'];
-    productId: string;
     title: string;
     description: string;
     price: number;
     image: string;
+}
+
+export interface IProduct extends IProductInput, Document {
+    productId: string;
     createdAt: Date;
     updatedAt: Date;
 }

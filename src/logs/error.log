@@ -2864,3 +2864,357 @@
 31-01-2023	23:38:20-----/api/users/logout --- DELETE --- Invalid token
 31-01-2023	23:38:20-----/api/users/reissue-token --- POST --- "refreshToken" is not allowed to be empty
 31-01-2023	23:38:20-----/api/users/reissue-token --- POST --- Invalid token
+01-02-2023	12:16:38-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found
+01-02-2023	12:16:38-----/api/products --- POST --- Unauthorized
+01-02-2023	12:16:39-----/api/products --- POST --- "description" is required
+01-02-2023	12:16:39-----/api/products --- POST --- "price" is required
+01-02-2023	12:16:39-----/api/products --- POST --- "image" is required
+01-02-2023	12:16:39-----/api/products --- POST --- "title" is not allowed to be empty
+01-02-2023	12:16:39-----/api/products --- POST --- "description" length must be at least 50 characters long
+01-02-2023	12:16:39-----/api/products --- POST --- "price" must be a number
+01-02-2023	12:16:39-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:16:39-----/api/products --- POST --- "description" length must be at least 50 characters long
+01-02-2023	12:16:39-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Not found
+01-02-2023	12:16:39-----/api/products/63d9f5b75548884e3563a09f --- PUT --- Unauthorized
+01-02-2023	12:16:39-----/api/users/signin --- POST --- "email" is required
+01-02-2023	12:16:39-----/api/users/signin --- POST --- "email" is required
+01-02-2023	12:16:39-----/api/users/signin --- POST --- "password" is required
+01-02-2023	12:16:39-----/api/users/signin --- POST --- "email" must be a valid email
+01-02-2023	12:16:39-----/api/users/signin --- POST --- "password" is not allowed to be empty
+01-02-2023	12:16:39-----/api/users/signin --- POST --- "email" must be a string
+01-02-2023	12:16:39-----/api/users/signin --- POST --- "password" must be a string
+01-02-2023	12:16:39-----/api/products/63d9f5b75548884e3563a0a6 --- PUT --- "description" is required
+01-02-2023	12:16:39-----/api/products/63d9f5b75548884e3563a0a6 --- PUT --- "price" is required
+01-02-2023	12:16:39-----/api/products/63d9f5b75548884e3563a0a6 --- PUT --- "image" is required
+01-02-2023	12:16:39-----/api/products/63d9f5b75548884e3563a0a6 --- PUT --- "title" is not allowed to be empty
+01-02-2023	12:16:39-----/api/products/63d9f5b75548884e3563a0a6 --- PUT --- "description" length must be at least 50 characters long
+01-02-2023	12:16:39-----/api/products/63d9f5b75548884e3563a0a6 --- PUT --- "price" must be a number
+01-02-2023	12:16:39-----/api/products/63d9f5b75548884e3563a0a6 --- PUT --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:16:39-----/api/products/63d9f5b75548884e3563a0a6 --- PUT --- "description" length must be at least 50 characters long
+01-02-2023	12:16:39-----/api/products/63d6460a95d7c852b8be9d58 --- DELETE --- Not found
+01-02-2023	12:16:39-----/api/products/63d9f5b75548884e3563a0ad --- DELETE --- Unauthorized
+01-02-2023	12:16:39-----/api/users/signin --- POST --- Email or password is incorrect
+01-02-2023	12:16:39-----/api/users/signup --- POST --- "email" is required
+01-02-2023	12:16:39-----/api/users/signup --- POST --- "email" is not allowed to be empty
+01-02-2023	12:16:39-----/api/users/signup --- POST --- "name" is required
+01-02-2023	12:16:39-----/api/users/signup --- POST --- "name" is required
+01-02-2023	12:16:39-----/api/users/signup --- POST --- "email" must be a valid email
+01-02-2023	12:16:39-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+01-02-2023	12:16:39-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+01-02-2023	12:16:39-----/api/users/signup --- POST --- "Confirm password" does not match
+01-02-2023	12:16:39-----/api/users/signup --- POST --- "email" must be a string
+01-02-2023	12:16:39-----/api/users/signup --- POST --- "name" must be a string
+01-02-2023	12:16:39-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:16:39-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:16:40-----/api/users/signup --- POST --- Email already in use
+01-02-2023	12:16:40-----/api/users/logout --- DELETE --- "refreshToken" is not allowed to be empty
+01-02-2023	12:16:40-----/api/users/logout --- DELETE --- Invalid token
+01-02-2023	12:16:41-----/api/users/reissue-token --- POST --- "refreshToken" is not allowed to be empty
+01-02-2023	12:16:41-----/api/users/reissue-token --- POST --- Invalid token
+01-02-2023	12:17:08-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found
+01-02-2023	12:17:08-----/api/products --- POST --- Unauthorized
+01-02-2023	12:17:08-----/api/products --- POST --- "description" is required
+01-02-2023	12:17:08-----/api/products --- POST --- "price" is required
+01-02-2023	12:17:08-----/api/products --- POST --- "title" is not allowed to be empty
+01-02-2023	12:17:08-----/api/products --- POST --- "image" is required
+01-02-2023	12:17:08-----/api/products --- POST --- "price" must be a number
+01-02-2023	12:17:08-----/api/products --- POST --- "description" length must be at least 50 characters long
+01-02-2023	12:17:08-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:17:08-----/api/products --- POST --- "description" length must be at least 50 characters long
+01-02-2023	12:17:08-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Not found
+01-02-2023	12:17:08-----/api/products/63d9f5d4664f322c44b7b2bd --- PUT --- Unauthorized
+01-02-2023	12:17:08-----/api/products/63d9f5d4664f322c44b7b2c4 --- PUT --- "description" is required
+01-02-2023	12:17:08-----/api/products/63d9f5d4664f322c44b7b2c4 --- PUT --- "image" is required
+01-02-2023	12:17:08-----/api/products/63d9f5d4664f322c44b7b2c4 --- PUT --- "price" is required
+01-02-2023	12:17:08-----/api/products/63d9f5d4664f322c44b7b2c4 --- PUT --- "title" is not allowed to be empty
+01-02-2023	12:17:08-----/api/products/63d9f5d4664f322c44b7b2c4 --- PUT --- "description" length must be at least 50 characters long
+01-02-2023	12:17:08-----/api/products/63d9f5d4664f322c44b7b2c4 --- PUT --- "price" must be a number
+01-02-2023	12:17:08-----/api/products/63d9f5d4664f322c44b7b2c4 --- PUT --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:17:08-----/api/products/63d9f5d4664f322c44b7b2c4 --- PUT --- "description" length must be at least 50 characters long
+01-02-2023	12:17:08-----/api/products/63d6460a95d7c852b8be9d58 --- DELETE --- Not found
+01-02-2023	12:17:08-----/api/users/signin --- POST --- "email" is required
+01-02-2023	12:17:08-----/api/users/signin --- POST --- "email" is required
+01-02-2023	12:17:08-----/api/users/signin --- POST --- "password" is required
+01-02-2023	12:17:08-----/api/users/signin --- POST --- "email" must be a valid email
+01-02-2023	12:17:08-----/api/users/signin --- POST --- "password" is not allowed to be empty
+01-02-2023	12:17:08-----/api/users/signin --- POST --- "email" must be a string
+01-02-2023	12:17:08-----/api/users/signin --- POST --- "password" must be a string
+01-02-2023	12:17:08-----/api/products/63d9f5d4664f322c44b7b2cb --- DELETE --- Unauthorized
+01-02-2023	12:17:08-----/api/users/signin --- POST --- Email or password is incorrect
+01-02-2023	12:17:09-----/api/users/signup --- POST --- "email" is required
+01-02-2023	12:17:09-----/api/users/signup --- POST --- "email" is not allowed to be empty
+01-02-2023	12:17:09-----/api/users/signup --- POST --- "name" is required
+01-02-2023	12:17:09-----/api/users/signup --- POST --- "name" is required
+01-02-2023	12:17:09-----/api/users/signup --- POST --- "email" must be a valid email
+01-02-2023	12:17:09-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+01-02-2023	12:17:09-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+01-02-2023	12:17:09-----/api/users/signup --- POST --- "Confirm password" does not match
+01-02-2023	12:17:09-----/api/users/signup --- POST --- "email" must be a string
+01-02-2023	12:17:09-----/api/users/signup --- POST --- "name" must be a string
+01-02-2023	12:17:09-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:17:09-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:17:09-----/api/users/signup --- POST --- Email already in use
+01-02-2023	12:17:09-----/api/users/logout --- DELETE --- "refreshToken" is not allowed to be empty
+01-02-2023	12:17:09-----/api/users/logout --- DELETE --- Invalid token
+01-02-2023	12:17:10-----/api/users/reissue-token --- POST --- "refreshToken" is not allowed to be empty
+01-02-2023	12:17:10-----/api/users/reissue-token --- POST --- Invalid token
+01-02-2023	12:19:18-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found
+01-02-2023	12:19:18-----/api/products --- POST --- Unauthorized
+01-02-2023	12:19:18-----/api/products --- POST --- "description" is required
+01-02-2023	12:19:18-----/api/products --- POST --- "price" is required
+01-02-2023	12:19:18-----/api/products --- POST --- "image" is required
+01-02-2023	12:19:18-----/api/products --- POST --- "title" is not allowed to be empty
+01-02-2023	12:19:18-----/api/products --- POST --- "description" length must be at least 50 characters long
+01-02-2023	12:19:18-----/api/products --- POST --- "price" must be a number
+01-02-2023	12:19:18-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:19:18-----/api/products --- POST --- "description" length must be at least 50 characters long
+01-02-2023	12:19:18-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Not found
+01-02-2023	12:19:18-----/api/products/63d9f656c36afef2ea39a0d5 --- PUT --- Unauthorized
+01-02-2023	12:19:18-----/api/users/signin --- POST --- "email" is required
+01-02-2023	12:19:18-----/api/users/signin --- POST --- "email" is required
+01-02-2023	12:19:18-----/api/users/signin --- POST --- "password" is required
+01-02-2023	12:19:18-----/api/users/signin --- POST --- "email" must be a valid email
+01-02-2023	12:19:18-----/api/users/signin --- POST --- "password" is not allowed to be empty
+01-02-2023	12:19:18-----/api/users/signin --- POST --- "email" must be a string
+01-02-2023	12:19:18-----/api/users/signin --- POST --- "password" must be a string
+01-02-2023	12:19:18-----/api/products/63d9f656c36afef2ea39a0dc --- PUT --- "description" is required
+01-02-2023	12:19:18-----/api/products/63d9f656c36afef2ea39a0dc --- PUT --- "image" is required
+01-02-2023	12:19:18-----/api/products/63d9f656c36afef2ea39a0dc --- PUT --- "price" is required
+01-02-2023	12:19:18-----/api/products/63d9f656c36afef2ea39a0dc --- PUT --- "title" is not allowed to be empty
+01-02-2023	12:19:18-----/api/products/63d9f656c36afef2ea39a0dc --- PUT --- "description" length must be at least 50 characters long
+01-02-2023	12:19:18-----/api/products/63d9f656c36afef2ea39a0dc --- PUT --- "price" must be a number
+01-02-2023	12:19:18-----/api/products/63d9f656c36afef2ea39a0dc --- PUT --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:19:18-----/api/products/63d9f656c36afef2ea39a0dc --- PUT --- "description" length must be at least 50 characters long
+01-02-2023	12:19:18-----/api/products/63d6460a95d7c852b8be9d58 --- DELETE --- Not found
+01-02-2023	12:19:18-----/api/products/63d9f656c36afef2ea39a0e3 --- DELETE --- Unauthorized
+01-02-2023	12:19:18-----/api/users/signin --- POST --- Email or password is incorrect
+01-02-2023	12:19:19-----/api/users/signup --- POST --- "email" is required
+01-02-2023	12:19:19-----/api/users/signup --- POST --- "email" is not allowed to be empty
+01-02-2023	12:19:19-----/api/users/signup --- POST --- "name" is required
+01-02-2023	12:19:19-----/api/users/signup --- POST --- "name" is required
+01-02-2023	12:19:19-----/api/users/signup --- POST --- "email" must be a valid email
+01-02-2023	12:19:19-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+01-02-2023	12:19:19-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+01-02-2023	12:19:19-----/api/users/signup --- POST --- "Confirm password" does not match
+01-02-2023	12:19:19-----/api/users/signup --- POST --- "email" must be a string
+01-02-2023	12:19:19-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:19:19-----/api/users/signup --- POST --- "name" must be a string
+01-02-2023	12:19:19-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:19:19-----/api/users/signup --- POST --- Email already in use
+01-02-2023	12:19:20-----/api/users/logout --- DELETE --- "refreshToken" is not allowed to be empty
+01-02-2023	12:19:20-----/api/users/logout --- DELETE --- Invalid token
+01-02-2023	12:19:20-----/api/users/reissue-token --- POST --- "refreshToken" is not allowed to be empty
+01-02-2023	12:19:20-----/api/users/reissue-token --- POST --- Invalid token
+01-02-2023	12:23:19-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found
+01-02-2023	12:23:19-----/api/products --- POST --- Unauthorized
+01-02-2023	12:23:19-----/api/products --- POST --- "description" is required
+01-02-2023	12:23:19-----/api/products --- POST --- "price" is required
+01-02-2023	12:23:19-----/api/products --- POST --- "image" is required
+01-02-2023	12:23:19-----/api/products --- POST --- "title" is not allowed to be empty
+01-02-2023	12:23:19-----/api/products --- POST --- "description" length must be at least 50 characters long
+01-02-2023	12:23:19-----/api/products --- POST --- "price" must be a number
+01-02-2023	12:23:19-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:23:19-----/api/products --- POST --- "description" length must be at least 50 characters long
+01-02-2023	12:23:19-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Not found
+01-02-2023	12:23:19-----/api/products/63d9f747cdfd77d50b1c429b --- PUT --- Unauthorized
+01-02-2023	12:23:19-----/api/products/63d9f747cdfd77d50b1c42a2 --- PUT --- "description" is required
+01-02-2023	12:23:19-----/api/products/63d9f747cdfd77d50b1c42a2 --- PUT --- "price" is required
+01-02-2023	12:23:19-----/api/products/63d9f747cdfd77d50b1c42a2 --- PUT --- "image" is required
+01-02-2023	12:23:19-----/api/products/63d9f747cdfd77d50b1c42a2 --- PUT --- "title" is not allowed to be empty
+01-02-2023	12:23:19-----/api/products/63d9f747cdfd77d50b1c42a2 --- PUT --- "description" length must be at least 50 characters long
+01-02-2023	12:23:19-----/api/products/63d9f747cdfd77d50b1c42a2 --- PUT --- "price" must be a number
+01-02-2023	12:23:19-----/api/products/63d9f747cdfd77d50b1c42a2 --- PUT --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:23:19-----/api/products/63d9f747cdfd77d50b1c42a2 --- PUT --- "description" length must be at least 50 characters long
+01-02-2023	12:23:19-----/api/products/63d6460a95d7c852b8be9d58 --- DELETE --- Not found
+01-02-2023	12:23:19-----/api/products/63d9f747cdfd77d50b1c42a9 --- DELETE --- Unauthorized
+01-02-2023	12:34:50-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found
+01-02-2023	12:34:50-----/api/products --- POST --- Unauthorized
+01-02-2023	12:34:50-----/api/products --- POST --- "description" is required
+01-02-2023	12:34:50-----/api/products --- POST --- "price" is required
+01-02-2023	12:34:50-----/api/products --- POST --- "image" is required
+01-02-2023	12:34:50-----/api/products --- POST --- "title" is not allowed to be empty
+01-02-2023	12:34:50-----/api/products --- POST --- "description" length must be at least 50 characters long
+01-02-2023	12:34:50-----/api/products --- POST --- "price" must be a number
+01-02-2023	12:34:50-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:34:50-----/api/products --- POST --- "description" length must be at least 50 characters long
+01-02-2023	12:34:50-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Not found
+01-02-2023	12:34:50-----/api/products/63d9f9fa1855af17a8660c26 --- PUT --- Unauthorized
+01-02-2023	12:34:50-----/api/products/63d9f9fa1855af17a8660c2d --- PUT --- "description" is required
+01-02-2023	12:34:50-----/api/products/63d9f9fa1855af17a8660c2d --- PUT --- "title" is not allowed to be empty
+01-02-2023	12:34:50-----/api/products/63d9f9fa1855af17a8660c2d --- PUT --- "description" length must be at least 50 characters long
+01-02-2023	12:34:50-----/api/products/63d9f9fa1855af17a8660c2d --- PUT --- "price" is required
+01-02-2023	12:34:50-----/api/products/63d9f9fa1855af17a8660c2d --- PUT --- "price" must be a number
+01-02-2023	12:34:50-----/api/products/63d9f9fa1855af17a8660c2d --- PUT --- "image" is required
+01-02-2023	12:34:50-----/api/products/63d9f9fa1855af17a8660c2d --- PUT --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:34:50-----/api/products/63d9f9fa1855af17a8660c2d --- PUT --- "description" length must be at least 50 characters long
+01-02-2023	12:34:50-----/api/products/63d6460a95d7c852b8be9d58 --- DELETE --- Not found
+01-02-2023	12:34:50-----/api/products/63d9f9fa1855af17a8660c34 --- DELETE --- Unauthorized
+01-02-2023	12:34:51-----/api/users/signin --- POST --- "email" is required
+01-02-2023	12:34:51-----/api/users/signin --- POST --- "email" is required
+01-02-2023	12:34:51-----/api/users/signin --- POST --- "password" is required
+01-02-2023	12:34:51-----/api/users/signin --- POST --- "email" must be a valid email
+01-02-2023	12:34:51-----/api/users/signin --- POST --- "password" is not allowed to be empty
+01-02-2023	12:34:51-----/api/users/signin --- POST --- "email" must be a string
+01-02-2023	12:34:51-----/api/users/signin --- POST --- "password" must be a string
+01-02-2023	12:34:51-----/api/users/signin --- POST --- Email or password is incorrect
+01-02-2023	12:34:51-----/api/users/signup --- POST --- "email" is required
+01-02-2023	12:34:51-----/api/users/signup --- POST --- "email" is not allowed to be empty
+01-02-2023	12:34:51-----/api/users/signup --- POST --- "name" is required
+01-02-2023	12:34:51-----/api/users/signup --- POST --- "name" is required
+01-02-2023	12:34:52-----/api/users/signup --- POST --- "email" must be a valid email
+01-02-2023	12:34:52-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+01-02-2023	12:34:52-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+01-02-2023	12:34:52-----/api/users/signup --- POST --- "Confirm password" does not match
+01-02-2023	12:34:52-----/api/users/signup --- POST --- "email" must be a string
+01-02-2023	12:34:52-----/api/users/signup --- POST --- "name" must be a string
+01-02-2023	12:34:52-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:34:52-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:34:52-----/api/users/signup --- POST --- Email already in use
+01-02-2023	12:34:52-----/api/users/logout --- DELETE --- "refreshToken" is not allowed to be empty
+01-02-2023	12:34:53-----/api/users/logout --- DELETE --- Invalid token
+01-02-2023	12:34:53-----/api/users/reissue-token --- POST --- "refreshToken" is not allowed to be empty
+01-02-2023	12:34:53-----/api/users/reissue-token --- POST --- Invalid token
+01-02-2023	12:46:33-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found
+01-02-2023	12:46:33-----/api/products --- POST --- Unauthorized
+01-02-2023	12:46:33-----/api/products --- POST --- "description" is required
+01-02-2023	12:46:33-----/api/products --- POST --- "image" is required
+01-02-2023	12:46:33-----/api/products --- POST --- "price" is required
+01-02-2023	12:46:33-----/api/products --- POST --- "title" is not allowed to be empty
+01-02-2023	12:46:33-----/api/products --- POST --- "description" length must be at least 50 characters long
+01-02-2023	12:46:33-----/api/products --- POST --- "price" must be a number
+01-02-2023	12:46:33-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:46:33-----/api/products --- POST --- "description" length must be at least 50 characters long
+01-02-2023	12:46:33-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Not found
+01-02-2023	12:46:33-----/api/products/63d9fcb9ef9796097a80d61b --- PUT --- Unauthorized
+01-02-2023	12:46:33-----/api/products/63d9fcb9ef9796097a80d622 --- PUT --- "description" is required
+01-02-2023	12:46:33-----/api/products/63d9fcb9ef9796097a80d622 --- PUT --- "price" is required
+01-02-2023	12:46:33-----/api/products/63d9fcb9ef9796097a80d622 --- PUT --- "image" is required
+01-02-2023	12:46:33-----/api/products/63d9fcb9ef9796097a80d622 --- PUT --- "title" is not allowed to be empty
+01-02-2023	12:46:33-----/api/products/63d9fcb9ef9796097a80d622 --- PUT --- "description" length must be at least 50 characters long
+01-02-2023	12:46:33-----/api/products/63d9fcb9ef9796097a80d622 --- PUT --- "price" must be a number
+01-02-2023	12:46:33-----/api/products/63d9fcb9ef9796097a80d622 --- PUT --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:46:33-----/api/products/63d9fcb9ef9796097a80d622 --- PUT --- "description" length must be at least 50 characters long
+01-02-2023	12:46:33-----/api/products/63d6460a95d7c852b8be9d58 --- DELETE --- Not found
+01-02-2023	12:46:33-----/api/products/63d9fcb9ef9796097a80d629 --- DELETE --- Unauthorized
+01-02-2023	12:46:35-----/api/users/signin --- POST --- "email" is required
+01-02-2023	12:46:35-----/api/users/signin --- POST --- "email" is required
+01-02-2023	12:46:35-----/api/users/signin --- POST --- "password" is required
+01-02-2023	12:46:35-----/api/users/signin --- POST --- "email" must be a valid email
+01-02-2023	12:46:35-----/api/users/signin --- POST --- "password" is not allowed to be empty
+01-02-2023	12:46:35-----/api/users/signin --- POST --- "email" must be a string
+01-02-2023	12:46:35-----/api/users/signin --- POST --- "password" must be a string
+01-02-2023	12:46:35-----/api/users/signin --- POST --- Email or password is incorrect
+01-02-2023	12:46:35-----/api/users/signup --- POST --- "email" is required
+01-02-2023	12:46:35-----/api/users/signup --- POST --- "email" is not allowed to be empty
+01-02-2023	12:46:35-----/api/users/signup --- POST --- "name" is required
+01-02-2023	12:46:35-----/api/users/signup --- POST --- "name" is required
+01-02-2023	12:46:35-----/api/users/signup --- POST --- "email" must be a valid email
+01-02-2023	12:46:35-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+01-02-2023	12:46:35-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+01-02-2023	12:46:35-----/api/users/signup --- POST --- "Confirm password" does not match
+01-02-2023	12:46:35-----/api/users/signup --- POST --- "email" must be a string
+01-02-2023	12:46:35-----/api/users/signup --- POST --- "name" must be a string
+01-02-2023	12:46:35-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:46:35-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:46:35-----/api/users/signup --- POST --- Email already in use
+01-02-2023	12:46:36-----/api/users/logout --- DELETE --- "refreshToken" is not allowed to be empty
+01-02-2023	12:46:36-----/api/users/logout --- DELETE --- Invalid token
+01-02-2023	12:46:36-----/api/users/reissue-token --- POST --- "refreshToken" is not allowed to be empty
+01-02-2023	12:46:36-----/api/users/reissue-token --- POST --- Invalid token
+01-02-2023	12:50:04-----/api/products/63d6460a95d7c852b8be9d58 --- GET --- Not found
+01-02-2023	12:50:04-----/api/products --- POST --- Unauthorized
+01-02-2023	12:50:04-----/api/products --- POST --- "description" is required
+01-02-2023	12:50:04-----/api/products --- POST --- "price" is required
+01-02-2023	12:50:04-----/api/products --- POST --- "image" is required
+01-02-2023	12:50:04-----/api/products --- POST --- "title" is not allowed to be empty
+01-02-2023	12:50:04-----/api/products --- POST --- "description" length must be at least 50 characters long
+01-02-2023	12:50:04-----/api/products --- POST --- "price" must be a number
+01-02-2023	12:50:04-----/api/products --- POST --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:50:04-----/api/products --- POST --- "description" length must be at least 50 characters long
+01-02-2023	12:50:04-----/api/products/63d6460a95d7c852b8be9d58 --- PUT --- Not found
+01-02-2023	12:50:04-----/api/products/63d9fd8c3f90c2b60aa02fca --- PUT --- Unauthorized
+01-02-2023	12:50:04-----/api/products/63d9fd8c3f90c2b60aa02fd1 --- PUT --- "description" is required
+01-02-2023	12:50:04-----/api/products/63d9fd8c3f90c2b60aa02fd1 --- PUT --- "price" is required
+01-02-2023	12:50:04-----/api/products/63d9fd8c3f90c2b60aa02fd1 --- PUT --- "title" is not allowed to be empty
+01-02-2023	12:50:04-----/api/products/63d9fd8c3f90c2b60aa02fd1 --- PUT --- "description" length must be at least 50 characters long
+01-02-2023	12:50:04-----/api/products/63d9fd8c3f90c2b60aa02fd1 --- PUT --- "image" is required
+01-02-2023	12:50:04-----/api/products/63d9fd8c3f90c2b60aa02fd1 --- PUT --- "price" must be a number
+01-02-2023	12:50:04-----/api/products/63d9fd8c3f90c2b60aa02fd1 --- PUT --- "title" with value "<script>alert('XSS')</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:50:04-----/api/products/63d9fd8c3f90c2b60aa02fd1 --- PUT --- "description" length must be at least 50 characters long
+01-02-2023	12:50:04-----/api/products/63d6460a95d7c852b8be9d58 --- DELETE --- Not found
+01-02-2023	12:50:04-----/api/products/63d9fd8c3f90c2b60aa02fd8 --- DELETE --- Unauthorized
+01-02-2023	12:50:07-----/api/users/signin --- POST --- "email" is required
+01-02-2023	12:50:07-----/api/users/signin --- POST --- "email" is required
+01-02-2023	12:50:07-----/api/users/signin --- POST --- "password" is required
+01-02-2023	12:50:07-----/api/users/signin --- POST --- "email" must be a valid email
+01-02-2023	12:50:07-----/api/users/signin --- POST --- "password" is not allowed to be empty
+01-02-2023	12:50:07-----/api/users/signin --- POST --- "email" must be a string
+01-02-2023	12:50:07-----/api/users/signin --- POST --- "password" must be a string
+01-02-2023	12:50:07-----/api/users/signin --- POST --- Email or password is incorrect
+01-02-2023	12:50:08-----/api/users/signup --- POST --- "email" is required
+01-02-2023	12:50:08-----/api/users/signup --- POST --- "email" is not allowed to be empty
+01-02-2023	12:50:08-----/api/users/signup --- POST --- "name" is required
+01-02-2023	12:50:08-----/api/users/signup --- POST --- "name" is required
+01-02-2023	12:50:08-----/api/users/signup --- POST --- "email" must be a valid email
+01-02-2023	12:50:08-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+01-02-2023	12:50:08-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+01-02-2023	12:50:08-----/api/users/signup --- POST --- "Confirm password" does not match
+01-02-2023	12:50:08-----/api/users/signup --- POST --- "email" must be a string
+01-02-2023	12:50:08-----/api/users/signup --- POST --- "name" must be a string
+01-02-2023	12:50:08-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:50:08-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:50:08-----/api/users/signup --- POST --- Email already in use
+01-02-2023	12:50:08-----/api/users/logout --- DELETE --- "refreshToken" is not allowed to be empty
+01-02-2023	12:50:08-----/api/users/logout --- DELETE --- Invalid token
+01-02-2023	12:50:09-----/api/users/reissue-token --- POST --- "refreshToken" is not allowed to be empty
+01-02-2023	12:50:09-----/api/users/reissue-token --- POST --- Invalid token
+01-02-2023	12:56:54-----/api/users/signin --- POST --- "email" is required
+01-02-2023	12:56:54-----/api/users/signin --- POST --- "email" is required
+01-02-2023	12:56:54-----/api/users/signin --- POST --- "password" is required
+01-02-2023	12:56:54-----/api/users/signin --- POST --- "email" must be a valid email
+01-02-2023	12:56:54-----/api/users/signin --- POST --- "password" is not allowed to be empty
+01-02-2023	12:56:54-----/api/users/signin --- POST --- "email" must be a string
+01-02-2023	12:56:54-----/api/users/signin --- POST --- "password" must be a string
+01-02-2023	12:56:54-----/api/users/signin --- POST --- Email or password is incorrect
+01-02-2023	12:56:54-----/api/users/signup --- POST --- "email" is required
+01-02-2023	12:56:54-----/api/users/signup --- POST --- "email" is not allowed to be empty
+01-02-2023	12:56:54-----/api/users/signup --- POST --- "name" is required
+01-02-2023	12:56:54-----/api/users/signup --- POST --- "name" is required
+01-02-2023	12:56:54-----/api/users/signup --- POST --- "email" must be a valid email
+01-02-2023	12:56:54-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+01-02-2023	12:56:54-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+01-02-2023	12:56:54-----/api/users/signup --- POST --- "Confirm password" does not match
+01-02-2023	12:56:54-----/api/users/signup --- POST --- "email" must be a string
+01-02-2023	12:56:54-----/api/users/signup --- POST --- "name" must be a string
+01-02-2023	12:56:54-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:56:54-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	12:56:54-----/api/users/signup --- POST --- Email already in use
+01-02-2023	12:56:55-----/api/users/logout --- DELETE --- "refreshToken" is not allowed to be empty
+01-02-2023	12:56:55-----/api/users/logout --- DELETE --- Invalid token
+01-02-2023	12:56:55-----/api/users/reissue-token --- POST --- "refreshToken" is not allowed to be empty
+01-02-2023	12:56:55-----/api/users/reissue-token --- POST --- Invalid token
+01-02-2023	13:00:06-----/api/users/signin --- POST --- "email" is required
+01-02-2023	13:00:06-----/api/users/signin --- POST --- "email" is required
+01-02-2023	13:00:06-----/api/users/signin --- POST --- "password" is required
+01-02-2023	13:00:06-----/api/users/signin --- POST --- "password" is not allowed to be empty
+01-02-2023	13:00:06-----/api/users/signin --- POST --- "email" must be a valid email
+01-02-2023	13:00:06-----/api/users/signin --- POST --- "email" must be a string
+01-02-2023	13:00:06-----/api/users/signin --- POST --- "password" must be a string
+01-02-2023	13:00:06-----/api/users/signin --- POST --- Email or password is incorrect
+01-02-2023	13:00:07-----/api/users/signup --- POST --- "email" is required
+01-02-2023	13:00:07-----/api/users/signup --- POST --- "name" is required
+01-02-2023	13:00:07-----/api/users/signup --- POST --- "email" is not allowed to be empty
+01-02-2023	13:00:07-----/api/users/signup --- POST --- "name" is required
+01-02-2023	13:00:07-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+01-02-2023	13:00:07-----/api/users/signup --- POST --- "password" length must be at least 6 characters long
+01-02-2023	13:00:07-----/api/users/signup --- POST --- "email" must be a valid email
+01-02-2023	13:00:07-----/api/users/signup --- POST --- "Confirm password" does not match
+01-02-2023	13:00:07-----/api/users/signup --- POST --- "email" must be a string
+01-02-2023	13:00:07-----/api/users/signup --- POST --- "name" must be a string
+01-02-2023	13:00:07-----/api/users/signup --- POST --- "name" with value "<script>alert("XSS")</script>" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	13:00:07-----/api/users/signup --- POST --- "name" with value "(name)" matches the inverted pattern: /[$\(\)<>]/
+01-02-2023	13:00:08-----/api/users/signup --- POST --- Email already in use
+01-02-2023	13:00:08-----/api/users/logout --- DELETE --- "refreshToken" is not allowed to be empty
+01-02-2023	13:00:08-----/api/users/logout --- DELETE --- Invalid token
+01-02-2023	13:00:08-----/api/users/reissue-token --- POST --- "refreshToken" is not allowed to be empty
+01-02-2023	13:00:09-----/api/users/reissue-token --- POST --- Invalid token
