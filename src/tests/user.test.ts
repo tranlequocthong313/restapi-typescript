@@ -163,8 +163,8 @@ describe('user tests', () => {
                 };
 
                 const user = await (new UserModel(userPayload)).save();
-
                 expect(user.password).not.toBe(userPayload.password);
+                expect(user.password).toHaveLength(60); // Bcrypt's hash passwords have 60 chars
 
             });
 
