@@ -33,9 +33,6 @@ describe('product tests', () => {
         await mongoose.connect(mongoServer.getUri());
 
         client = supertest(app);
-        userId = new Types.ObjectId().toString();
-        accessToken = jwt.signToken({ _id: userId }, config.JWT.ACCESS_TOKEN_SECRET);
-        productService = new ProductService();
 
     });
 
@@ -47,7 +44,12 @@ describe('product tests', () => {
     ]));
 
     beforeEach(async () => {
+
+        userId = new Types.ObjectId().toString();
+        accessToken = jwt.signToken({ _id: userId }, config.JWT.ACCESS_TOKEN_SECRET);
+        productService = new ProductService();
         product = await productService.create({ ...productPayload, userId });
+
     });
 
     describe('GET /api/products/:id', () => {

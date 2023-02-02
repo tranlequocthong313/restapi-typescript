@@ -33,7 +33,6 @@ describe('user tests', () => {
         await mongoose.connect(mongoServer.getUri());
 
         client = supertest(app);
-        await client.post('/api/users/signup').send(userPayload);
 
     });
 
@@ -46,6 +45,7 @@ describe('user tests', () => {
 
     beforeEach(async () => {
 
+        await client.post('/api/users/signup').send(userPayload);
         const { body } = await client.post('/api/users/signin').send(userAuth);
         refreshToken = body.data.refreshToken;
 

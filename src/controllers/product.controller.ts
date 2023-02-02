@@ -2,8 +2,6 @@ import { NextFunction, Request, Response } from 'express';
 import { IProductService } from '../services';
 import { HttpResponse, logger } from '../utils';
 import { HttpError } from '../middlewares';
-import { redis } from '../databases';
-import { IProduct } from '../models';
 
 class ProductController {
     constructor(private productService: IProductService) {
@@ -12,10 +10,14 @@ class ProductController {
 
     async createProduct(req: Request, res: Response, next: NextFunction) {
         try {
-            const product = await this.productService.create({ ...req.body, userId: res.locals.payload._id });
-            await this.cacheProduct(product);
-
-            return HttpResponse(res, { code: 201, message: 'Created successfully', data: product });
+            return HttpResponse(res, {
+                code: 201,
+                message: 'Created successfully',
+                data: await this.productService.create({
+                    ...req.body,
+                    userId: res.locals.payload._id
+                })
+            });
         } catch (error) {
             logger.error(error);
             next(new HttpError());
@@ -24,13 +26,15 @@ class ProductController {
 
     async updateProduct(req: Request, res: Response, next: NextFunction) {
         try {
-            const userId = res.locals.payload._id;
-            const { productId } = req.params;
-
-            const updatedProduct = await this.productService.findOneAndUpdate({ _id: productId, userId }, req.body, { new: true });
+            const updatedProduct = await this.productService.findOneAndUpdate({
+                _id: req.params.productId,
+                userId: res.locals.payload._id
+            },
+                req.body,
+                { new: true }
+            );
             if (!updatedProduct) return next(new HttpError(404, 'Not found'));
 
-            await this.cacheProduct(updatedProduct);
             return HttpResponse(res, { code: 200, message: 'Updated successfully', data: updatedProduct });
         } catch (error) {
             logger.error(error);
@@ -40,31 +44,24 @@ class ProductController {
 
     async getProduct(req: Request, res: Response, next: NextFunction) {
         try {
-            const { productId } = req.params;
-            const cachedProduct = await redis.get(`product:::${productId}`);
-            if (cachedProduct)
-                return HttpResponse(res, { code: 200, message: 'Success from cache', data: JSON.parse(cachedProduct) });
-
-            const product = await this.productService.findOne({ _id: productId });
+            const product = await this.productService.findOne({ _id: req.params.productId });
             if (!product) return next(new HttpError(404, 'Not found'));
 
-            await this.cacheProduct(product);
-            return HttpResponse(res, { code: 200, message: 'Success from db', data: product });
+            return HttpResponse(res, { code: 200, message: 'Get successfully', data: product });
         } catch (error) {
             logger.error(error);
-            next(new HttpError(404, 'Not found'));
+            next(new HttpError());
         }
     }
 
     async deleteProduct(req: Request, res: Response, next: NextFunction) {
         try {
-            const userId = res.locals.payload._id;
-            const { productId } = req.params;
-
-            const deletedProduct = await this.productService.findOneAndDelete({ _id: productId, userId });
+            const deletedProduct = await this.productService.findOneAndDelete({
+                _id: req.params.productId,
+                userId: res.locals.payload._id
+            });
             if (!deletedProduct) return next(new HttpError(404, 'Not found'));
 
-            await redis.del(`product:::${productId}`);
             return HttpResponse(res, { code: 200, message: 'Deleted successfully' });
         } catch (error) {
             logger.error(error);
@@ -72,10 +69,6 @@ class ProductController {
         }
     }
 
-    private async cacheProduct(product: IProduct) {
-        const timeToLive = 24 * 60 * 60; // 24 hours
-        await redis.set(`product:::${product?._id}`, JSON.stringify(product), 'EX', timeToLive);
-    }
 }
 
 export default ProductController;
