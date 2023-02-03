@@ -9,7 +9,7 @@ GET {{url}}/products/63dcb321448df0d273100a40
 ###
 POST {{url}}/products
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzU0MDgwODEsImV4cCI6MTY3NTQwODk4MX0.qS-1_rkqeWgOVck7ARM305TNn9gmrFn5RXd61eDNZAY
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2RkMjlhZjhlZWM3NWFkMDU2ZjllMDEiLCJpYXQiOjE2NzU0Mzg1MjksImV4cCI6MTY3NTQzOTQyOX0.G_tX45bnQ0XRHw0MOAW82cBsseVXhN4B2wN9L8btLDU
 
 {
    "title": "Code dao ky su",

@@ -1,0 +1,22 @@
+version: '3.7'
+services:
+  cache:
+    image: redis:latest
+    restart: always
+  db:
+    image: mongo:latest
+    restart: always
+    volumes:
+      - db:/data/db
+  api:
+    build: .
+    ports:
+      - 3000:3000
+    depends_on:
+      - db
+      - cache
+    env_file:
+      - .env
+
+volumes:
+  db: {}

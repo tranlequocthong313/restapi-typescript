@@ -45,7 +45,7 @@
     "start": "SET NODE_ENV=production & ts-node server.ts",
     "dev": "ts-node-dev --respawn --transpile-only server.ts",
     "test": "jest",
-    "build": "tsc -p"
+    "build": "tsc -p ."
   },
   "keywords": [],
   "author": "",

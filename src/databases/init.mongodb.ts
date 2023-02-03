@@ -14,7 +14,7 @@ const connectToDB = () => {
     mongoose.connection.on('connected', () => logger.info(`Connected to mongodb`));
     mongoose.connection.on('error', (error) => logger.error(`Mongodb error:::${error}`));
 
-    mongoose.connect(`mongodb://${HOST}:${PORT}/${DB_NAME}`);
+    mongoose.connect(`mongodb://${HOST}:${PORT}/${DB_NAME}`, { serverSelectionTimeoutMS: 3000 });
 };
 
 export default connectToDB;

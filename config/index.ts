@@ -12,25 +12,29 @@ const getEnvVariable = (key: string): any => {
 
 export default {
     SERVER: {
-        PORT: +getEnvVariable('SERVER_PORT') || 3000,
-        MORGAN_STYLE: getEnvVariable('SERVER_MORGAN_STYLE') || 'combined',
+        PORT: +getEnvVariable('SERVER_PORT'),
+        MORGAN_STYLE: getEnvVariable('SERVER_MORGAN_STYLE'),
         NODE_ENV: getEnvVariable('NODE_ENV') || "development",
-        RATE_LIMIT_WINDOW: +getEnvVariable('RATE_LIMIT_WINDOW') || 15 * 60 * 1000, // 15 mins
-        RATE_LIMIT_MAX: +getEnvVariable('RATE_LIMIT_MAX') || 100
+        RATE_LIMIT_WINDOW: +getEnvVariable('RATE_LIMIT_WINDOW'),
+        RATE_LIMIT_MAX: +getEnvVariable('RATE_LIMIT_MAX')
     },
     MONGODB: {
-        HOST: getEnvVariable('MONGODB_HOST') || '0.0.0.0',
-        PORT: getEnvVariable('MONGODB_PORT') || 27017,
-        DB_NAME: getEnvVariable('MONGODB_DB_NAME') || 'test',
-        DEBUG: getEnvVariable('MONGODB_DEBUG') || true
+        HOST: getEnvVariable('MONGODB_HOST'),
+        PORT: getEnvVariable('MONGODB_PORT'),
+        DB_NAME: getEnvVariable('MONGODB_DB_NAME'),
+        DEBUG: getEnvVariable('MONGODB_DEBUG')
+    },
+    REDIS: {
+        HOST: getEnvVariable('REDIS_HOST'),
+        PORT: +getEnvVariable('REDIS_PORT')
     },
     BCRYPT: {
-        SALT: +getEnvVariable('BCRYPT_SALT') || 10
+        SALT: +getEnvVariable('BCRYPT_SALT')
     },
     JWT: {
         ACCESS_TOKEN_SECRET: getEnvVariable('JWT_ACCESS_TOKEN_SECRET'),
         REFRESH_TOKEN_SECRET: getEnvVariable('JWT_REFRESH_TOKEN_SECRET'),
-        ACCESS_EXPIRES_IN: +getEnvVariable('JWT_ACCESS_EXPIRES_IN') || 15 * 60, // default: 15 mins
-        REFRESH_EXPIRES_IN: +getEnvVariable('JWT_REFRESH_EXPIRES_IN') || 24 * 60 * 60, // default: 1 day
+        ACCESS_EXPIRES_IN: +getEnvVariable('JWT_ACCESS_EXPIRES_IN'),
+        REFRESH_EXPIRES_IN: +getEnvVariable('JWT_REFRESH_EXPIRES_IN')
     },
 };

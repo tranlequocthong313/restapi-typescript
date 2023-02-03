@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const _1 = require(".");
+const middlewares_1 = require("../../middlewares");
+const express_1 = require("express");
+const userRouter = (0, express_1.Router)();
+const userService = new _1.UserService();
+const userController = new _1.UserController(userService);
+userRouter.post('/signup', (0, middlewares_1.validate)(_1.registerSchema), userController.signup.bind(userController));
+userRouter.post('/signin', (0, middlewares_1.validate)(_1.loginSchema), userController.signIn.bind(userController));
+userRouter.post('/reissue-token', (0, middlewares_1.validate)(_1.reissueTokenSchema), userController.reIssueToken.bind(userController));
+userRouter.delete('/logout', (0, middlewares_1.validate)(_1.logoutSchema), userController.logout.bind(userController));
+exports.default = userRouter;

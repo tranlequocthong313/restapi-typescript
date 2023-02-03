@@ -19,8 +19,8 @@ POST {{url}}/users/signin
 content-type: application/json
 
 {
-   "email": "tranl@gmail.com",
-   "password": "123456"
+   "email": "stephcurry@gmail.com",
+   "password": "password"
 }
 
 ###
