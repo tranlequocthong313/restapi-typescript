@@ -1,12 +1,11 @@
 import supertest, { SuperTest, Test } from 'supertest';
-import app from '../app';
+import app from '../../app';
 import mongoose, { Types } from 'mongoose';
 import { MongoMemoryServer } from 'mongodb-memory-server';
-import { ProductService } from '../services';
-import { jwt } from '../utils';
-import config from '../../config';
+import { ProductService, IProduct } from '.';
+import { jwt, logger } from '../../utils';
+import config from '../../../config';
 import { FAILED_CASE_BODIES } from './product.test.cases';
-import { IProduct } from '../models';
 
 
 const productPayload = {
@@ -33,7 +32,10 @@ describe('product tests', () => {
         await mongoose.connect(mongoServer.getUri());
 
         client = supertest(app);
-
+        userId = new Types.ObjectId().toString();
+        accessToken = jwt.signToken({ _id: userId }, config.JWT.ACCESS_TOKEN_SECRET);
+        productService = new ProductService();
+        product = await productService.create({ ...productPayload, userId });
     });
 
     afterAll(() => Promise.all([
@@ -42,15 +44,6 @@ describe('product tests', () => {
         mongoose.connection.close(),
 
     ]));
-
-    beforeEach(async () => {
-
-        userId = new Types.ObjectId().toString();
-        accessToken = jwt.signToken({ _id: userId }, config.JWT.ACCESS_TOKEN_SECRET);
-        productService = new ProductService();
-        product = await productService.create({ ...productPayload, userId });
-
-    });
 
     describe('GET /api/products/:id', () => {
 
@@ -141,7 +134,7 @@ describe('product tests', () => {
 
             it('should respond a 404 status code', async () => {
 
-                const { statusCode } = await client.put(`/api/products/${notExistProductId}`)
+                const { statusCode, body } = await client.put(`/api/products/${notExistProductId}`)
                     .set('Authorization', `Bearer ${accessToken}`)
                     .send(productPayload);
 

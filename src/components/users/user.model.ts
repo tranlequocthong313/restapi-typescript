@@ -1,7 +1,7 @@
 import mongoose, { Schema, model } from 'mongoose';
 import bcrypt from 'bcrypt';
-import config from '../../config';
-import { logger } from '../utils';
+import config from '../../../config';
+import { logger } from '../../utils';
 
 export interface IUserInput {
     email: string;
@@ -35,10 +35,7 @@ userSchema.pre('save', async function (next) {
 });
 
 userSchema.methods.comparePassword = async function (password: string): Promise<boolean> {
-    return await bcrypt.compare(password, this.password).catch(err => {
-        logger.error(err);
-        return false;
-    });
+    return await bcrypt.compare(password, this.password);
 };
 
 const UserModel = model<IUser>('user', userSchema);

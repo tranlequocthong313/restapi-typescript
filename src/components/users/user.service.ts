@@ -1,12 +1,12 @@
 import { FilterQuery, QueryOptions } from 'mongoose';
-import { IUser, IUserInput, UserModel } from '../models';
-import { jwt } from '../utils';
-import { redis } from '../databases';
-import config from '../../config';
+import { IUser, IUserInput, UserModel } from '.';
+import { jwt } from '../../utils';
+import { redis } from '../../databases';
+import config from '../../../config';
 
 export interface IUserService {
     createUser(user: IUserInput): Promise<IUser>;
-    findOne(query: FilterQuery<IUser>, options?: QueryOptions<IUser>): Promise<IUser | null>;
+    findOne(query: FilterQuery<IUser>, options?: QueryOptions<IUser>): Promise<IUser>;
     reIssueTokenPair(refreshToken: string): Promise<TokenPair>;
     logout(refreshToken: string): Promise<number>;
     getUserWithTokenPair(user: IUser): Promise<object>;
@@ -16,22 +16,27 @@ type TokenPair = { accessToken: string, refreshToken: string; };
 type TokenPayload = { _id: string; };
 
 class UserService implements IUserService {
-    async logout(refreshToken: string): Promise<number> {
-        const payload = await jwt.verifyRefreshToken(refreshToken, config.JWT.REFRESH_TOKEN_SECRET);
-        return await redis.del(payload._id.toString());
+    logout(refreshToken: string): Promise<number> {
+        return jwt.verifyRefreshToken(refreshToken, config.JWT.REFRESH_TOKEN_SECRET)
+            .then(async (payload) => await redis.del(payload._id.toString()))
+            .catch((err) => { throw new Error(err.message); });
     }
 
-    async reIssueTokenPair(refreshToken: string): Promise<TokenPair> {
-        const payload = await jwt.verifyRefreshToken(refreshToken, config.JWT.REFRESH_TOKEN_SECRET);
-        return await this.getTokens({ _id: payload._id });
+    reIssueTokenPair(refreshToken: string): Promise<TokenPair> {
+        return jwt.verifyRefreshToken(refreshToken, config.JWT.REFRESH_TOKEN_SECRET)
+            .then(async payload => await this.getTokens({ _id: payload._id }))
+            .catch(err => { throw new Error(err.message); });
     }
 
     async createUser(user: IUserInput): Promise<IUser> {
-        return await new UserModel(user).save();
+        return await new UserModel(user).save()
+            .catch(() => { throw new Error('Some error occurred while creating the user.'); });
     }
 
-    async findOne(query: FilterQuery<IUser>, options?: QueryOptions<IUser>): Promise<IUser | null> {
-        return await UserModel.findOne(query, null, options);
+    async findOne(query: FilterQuery<IUser>, options?: QueryOptions<IUser>): Promise<IUser> {
+        const user = await UserModel.findOne(query, null, options);
+        if (!user) throw new Error('User not found');
+        return user;
     }
 
     async getUserWithTokenPair(user: IUser): Promise<object> {

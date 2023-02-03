@@ -1,9 +1,9 @@
 import supertest, { SuperTest, Test } from 'supertest';
-import app from '../app';
+import app from '../../app';
 import { SIGNIN_FAILED_CASE_BODIES, SIGNUP_FAILED_CASE_BODIES, } from './user.test.cases';
 import { MongoMemoryServer } from 'mongodb-memory-server';
 import mongoose from 'mongoose';
-import { UserModel } from '../models';
+import { UserModel } from '.';
 
 const userPayload = {
     name: 'john doe',

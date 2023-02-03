@@ -1,5 +1,5 @@
 import { Document, Schema, Types, model } from 'mongoose';
-import { IUser } from './user.model';
+import { IUser } from '../users/user.model';
 import { v4 as uuidv4 } from 'uuid';
 
 export interface IProductInput {

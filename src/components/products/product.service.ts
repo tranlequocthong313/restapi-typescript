@@ -1,6 +1,6 @@
 import { Callback, FilterQuery, QueryOptions, UpdateQuery } from 'mongoose';
-import { IProduct, IProductInput, ProductModel } from '../models';
-import { redis } from '../databases';
+import { IProduct, IProductInput, ProductModel } from '.';
+import { redis } from '../../databases';
 
 export interface IProductService {
     create(product: IProductInput): Promise<IProduct>;
@@ -14,10 +14,13 @@ class ProductService implements IProductService {
         return await ProductModel.find(filter);
     }
 
-    async create(product: IProductInput): Promise<IProduct> {
-        const createdProduct = await (await ProductModel.create(product)).save();
-        await this.cacheProduct(createdProduct);
-        return createdProduct;
+    create(product: IProductInput): Promise<IProduct> {
+        return ProductModel.create(product)
+            .then(async createdProduct => {
+                await this.cacheProduct(createdProduct);
+                return createdProduct;
+            })
+            .catch(err => { throw new Error(err); });
     }
 
     async findOne(filter: FilterQuery<IProduct>, options: QueryOptions<IProduct> = { lean: true }): Promise<IProduct | null> {
@@ -25,8 +28,9 @@ class ProductService implements IProductService {
         if (cachedProduct) return JSON.parse(cachedProduct);
 
         const product = await ProductModel.findOne(filter, {}, options);
-        product && await this.cacheProduct(product);
+        if (!product) throw new Error('Product not found');
 
+        await this.cacheProduct(product);
         return product;
     }
 
@@ -38,7 +42,7 @@ class ProductService implements IProductService {
 
     async findOneAndDelete(filter: FilterQuery<IProduct>, options?: QueryOptions<IProduct>): Promise<unknown> {
         const deletedProduct = await ProductModel.findOneAndDelete(filter, options);
-        await this.deleteCachedProduct(filter._id);
+        deletedProduct && await this.deleteCachedProduct(filter._id);
         return deletedProduct;
     }
 

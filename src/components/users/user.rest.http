@@ -8,8 +8,8 @@ POST {{url}}/users/signup
 content-type: application/json
 
 {
-   "email": "<testuser>@gmail.com",
-   "name": "name",
+   "email": "stephcurry@gmail.com",
+   "name": "stephcurry",
    "password": "password",
    "passwordConfirmation": "password"
 }
@@ -28,7 +28,7 @@ DELETE  {{url}}/users/logout
 content-type: application/json
 
 {
-   "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzUxODIzODQsImV4cCI6MTY3NTI2ODc4NH0.NyzcP3hpM4Able3Fs9LnbnGt-VIVIkJ7wGvCSp1LpVE"
+   "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwiX2lkIjoiSm9obiBEb2UiLCJpYXQiOjE1MTYyMzkwMjJ9.9qddc431QAJFPfX6kTTTHV4sEDPPDN6_uLgllZJFKQ0"
 }
 
 ###

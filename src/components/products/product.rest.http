@@ -4,12 +4,12 @@
 GET {{url}}/health-check
 
 ###
-GET {{url}}/products/63d92777773ab15e856d79bf
+GET {{url}}/products/63dcb321448df0d273100a40
 
 ###
 POST {{url}}/products
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzUxNzU3ODYsImV4cCI6MTY3NTE3NjY4Nn0.8_oDr4mC4VdA8zDEI4kHR6heqQu8tV3oHSpxmfeErGQ
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzU0MDgwODEsImV4cCI6MTY3NTQwODk4MX0.qS-1_rkqeWgOVck7ARM305TNn9gmrFn5RXd61eDNZAY
 
 {
    "title": "Code dao ky su",
@@ -19,9 +19,9 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4Z
 }
 
 ###
-PUT {{url}}/products/63d92777773ab15e856d79bf
+PUT {{url}}/products/63dcb2ea448df0d273100a34
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzUxNzU3ODYsImV4cCI6MTY3NTE3NjY4Nn0.8_oDr4mC4VdA8zDEI4kHR6heqQu8tV3oHSpxmfeErGQ
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzU0MDgwODEsImV4cCI6MTY3NTQwODk4MX0.qS-1_rkqeWgOVck7ARM305TNn9gmrFn5RXd61eDNZAY
 
 {
    "title": "Clean code",
@@ -31,6 +31,6 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4Z
 }
 
 ###
-DELETE  {{url}}/products/63d92777773ab15e856d79bf
+DELETE  {{url}}/products/63dcb321448df0d273100a40
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzUxNzU3ODYsImV4cCI6MTY3NTE3NjY4Nn0.8_oDr4mC4VdA8zDEI4kHR6heqQu8tV3oHSpxmfeErGQ
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2Q0Y2Q4ZGY4MjgyZjBmNjg3ZjgzYTAiLCJpYXQiOjE2NzU0MDgwODEsImV4cCI6MTY3NTQwODk4MX0.qS-1_rkqeWgOVck7ARM305TNn9gmrFn5RXd61eDNZAY

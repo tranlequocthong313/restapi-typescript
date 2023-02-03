@@ -5,7 +5,7 @@ import fs from 'fs/promises';
 
 const logger = pino(pretty());
 
-export async function logIntoFile(msg: string, filename: string) {
+export function logIntoFile(msg: string, filename: string) {
     const dateTime = `${format(new Date(), 'dd-MM-yyyy\tHH:mm:ss')}`;
     const contentLog = `${dateTime}-----${msg}\n`;
     fs.appendFile(filename, contentLog).catch(err => logger.error(err));
